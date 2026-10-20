@@ -1,0 +1,12 @@
+numpy
+opencv-python
+matplotlib
+requests
+dotenv
+PyMuPDF
+jiwer
+ultralytics
+openai
+rapidocr
+python-bidi
+pagescan @ git+https://github.com/7RPlus-GmbH/pagescan.git
