@@ -116,41 +116,101 @@ def compare_stage(samples, stage_name):
 
 
 def compare_changes(before, after):
-    changes = {model: {field: Counter() for field in FIELDS} for model in ("gemini", "gemma")}
-    examples, missing_samples, mismatches = [], [], []
+    changes = {
+        model: {field: Counter() for field in FIELDS}
+        for model in ("gemini", "gemma")
+    }
+    regressions, missing_samples, mismatches = [], [], []
     matched_pairs = 0
+    fields_matching_before = 0
+
     for filename, old_sample in sorted(before.items()):
         new_sample = after.get(filename)
         if new_sample is None:
             missing_samples.append(filename)
             continue
+
         old_pairs, new_pairs = get_pairs(old_sample), get_pairs(new_sample)
         if len(old_pairs) != len(new_pairs):
-            mismatches.append({"filename": filename, "before_pair_count": len(old_pairs), "after_pair_count": len(new_pairs)})
+            mismatches.append({
+                "filename": filename,
+                "before_pair_count": len(old_pairs),
+                "after_pair_count": len(new_pairs),
+            })
+
         for index, old_pair in enumerate(old_pairs):
             if index >= len(new_pairs):
                 continue
+
+            new_pair = new_pairs[index]
             matched_pairs += 1
+            before_metadata = {
+                model: dict(get_med(old_pair, model))
+                for model in ("gemini", "gemma")
+            }
+            after_metadata = {
+                model: dict(get_med(new_pair, model))
+                for model in ("gemini", "gemma")
+            }
+
+            # Keep overall per-model change statistics.
             for model in ("gemini", "gemma"):
-                old_med, new_med = get_med(old_pair, model), get_med(new_pairs[index], model)
                 for field in FIELDS:
-                    old, new = old_med.get(field), new_med.get(field)
-                    changed = not same(old, new)
-                    changes[model][field]["changed" if changed else "unchanged"] += 1
-                    if changed:
-                        examples.append({"filename": filename, "medication_index": index,
-                                         "model": model, "field": field, "before": old, "after": new})
+                    old_value = before_metadata[model].get(field)
+                    new_value = after_metadata[model].get(field)
+                    changes[model][field][
+                        "changed" if not same(old_value, new_value) else "unchanged"
+                    ] += 1
+
+            # Report only fields that matched between Gemini and Gemma before
+            # cleanup but became different after cleanup.
+            for field in FIELDS:
+                gemini_before = before_metadata["gemini"].get(field)
+                gemma_before = before_metadata["gemma"].get(field)
+                gemini_after = after_metadata["gemini"].get(field)
+                gemma_after = after_metadata["gemma"].get(field)
+
+                matched_before = same(gemini_before, gemma_before)
+                matched_after = same(gemini_after, gemma_after)
+
+                if matched_before:
+                    fields_matching_before += 1
+
+                if matched_before and not matched_after:
+                    regressions.append({
+                        "filename": filename,
+                        "medication_index": index,
+                        "field": field,
+                        "gemini_before": gemini_before,
+                        "gemma_before": gemma_before,
+                        "gemini_after": gemini_after,
+                        "gemma_after": gemma_after,
+                        "before_metadata": before_metadata,
+                        "after_metadata": after_metadata,
+                    })
+
     summary = {}
     for model, fields in changes.items():
         summary[model] = {}
         for field, count in fields.items():
             total = count["changed"] + count["unchanged"]
-            summary[model][field] = {"compared": total, "changed": count["changed"],
-                                     "unchanged": count["unchanged"],
-                                     "changed_percent": count["changed"] * 100 / total if total else None}
-    return {"matched_sample_count": len(set(before) & set(after)), "matched_medication_pair_count": matched_pairs,
-            "missing_after_samples": missing_samples, "pair_count_mismatches": mismatches,
-            "field_changes": summary, "changed_examples": examples}
+            summary[model][field] = {
+                "compared": total,
+                "changed": count["changed"],
+                "unchanged": count["unchanged"],
+                "changed_percent": count["changed"] * 100 / total if total else None,
+            }
+
+    return {
+        "matched_sample_count": len(set(before) & set(after)),
+        "matched_medication_pair_count": matched_pairs,
+        "missing_after_samples": missing_samples,
+        "pair_count_mismatches": mismatches,
+        "field_changes": summary,
+        "fields_matching_before_cleanup": fields_matching_before,
+        "regression_count": len(regressions),
+        "matching_to_mismatching_examples": regressions,
+    }
 
 
 def pct(value):
@@ -204,13 +264,48 @@ def write_text_report(report):
     for item in after["different_name_pairs"]:
         lines.append(f"{item['filename']} | medication #{item['medication_index']} | Gemini={item['gemini_name']!r} | "
                      f"Gemma={item['gemma_name']!r} | edit_distance={item['name_edit_distance']}")
-    lines.extend(["", "ALL FIELD CHANGES CAUSED BY CLEANUP", "-" * 72])
-    for item in changes["changed_examples"]:
-        lines.append(f"{item['filename']} | medication #{item['medication_index']} | {item['model']}.{item['field']}: "
-                     f"{item['before']!r} -> {item['after']!r}")
+    lines.extend([
+        "",
+        "REGRESSIONS: FIELDS MATCHED BEFORE BUT NOT AFTER CLEANUP",
+        "-" * 72,
+        f"Fields matching between Gemini and Gemma before cleanup: "
+        f"{changes['fields_matching_before_cleanup']}",
+        f"Matching fields that became different after cleanup: "
+        f"{changes['regression_count']}",
+    ])
+
+    for item in changes["matching_to_mismatching_examples"]:
+        lines.extend([
+            "",
+            f"Location: {item['filename']} | Medication pair #{item['medication_index']}",
+            f"Field that became different: {item['field']}",
+            f"Before cleanup (matched): Gemini={item['gemini_before']!r} | "
+            f"Gemma={item['gemma_before']!r}",
+            f"After cleanup (different): Gemini={item['gemini_after']!r} | "
+            f"Gemma={item['gemma_after']!r}",
+            "",
+            "FULL MEDICATION METADATA BEFORE CLEANUP:",
+        ])
+
+        for model in ("gemini", "gemma"):
+            lines.append(f"  {model.upper()}:")
+            for field in FIELDS:
+                value = item["before_metadata"][model].get(field)
+                lines.append(f"    {field}: {value!r}")
+
+        lines.append("")
+        lines.append("FULL MEDICATION METADATA AFTER CLEANUP:")
+        for model in ("gemini", "gemma"):
+            lines.append(f"  {model.upper()}:")
+            for field in FIELDS:
+                value = item["after_metadata"][model].get(field)
+                lines.append(f"    {field}: {value!r}")
+
+        lines.append("-" * 72)
+
     lines.extend(["", "INTERPRETATION NOTES", "-" * 72,
                   "CER is agreement CER: Gemini medication names are treated as references and Gemma names as predictions; it is not ground-truth OCR CER.",
-                  "The input file is already filtered to pairs whose medication names were close, so the results apply only to this subset.",
+                  "The regression section includes only fields where Gemini and Gemma matched before cleanup but differ after cleanup.",
                   "Equality uses Unicode NFKC, case-folding, Arabic-Indic digit conversion, and whitespace normalization."])
     REPORT_TXT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -250,6 +345,7 @@ def main():
     print(f"Name CER after  (Gemini ref, Gemma pred): {pct(acer)}")
     if bcer is not None and acer is not None:
         print(f"CER delta (after - before): {acer - bcer:+.2f} percentage points")
+    print(f"Matching-to-mismatching field regressions: {changes['regression_count']}")
     print(f"Detailed JSON report: {REPORT_JSON}")
     print(f"Readable text report: {REPORT_TXT}")
 

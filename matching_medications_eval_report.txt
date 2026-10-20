@@ -684,1175 +684,2869 @@ shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #2 | Gemini='ventatrope' 
 shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #3 | Gemini='milga adv' | Gemma='milga' | edit_distance=4
 shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #5 | Gemini='duleprin' | Gemma='dulexoprine' | edit_distance=3
 
-ALL FIELD CHANGES CAUSED BY CLEANUP
+REGRESSIONS: FIELDS MATCHED BEFORE BUT NOT AFTER CLEANUP
 ------------------------------------------------------------------------
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #0 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #0 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #0 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #1 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #1 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #1 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #2 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #2 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #2 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/easy/IMG-20190402-WA0019.jpg | medication #3 | gemma.instructions: 'قرص / مساء' -> 'قرص مساء'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #0 | gemini.name: 'Dignorm tab' -> 'digenorm'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #0 | gemini.form: None -> 'tab'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #0 | gemma.name: 'Dignorm tab' -> 'digenorm'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #0 | gemma.form: None -> 'tab'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #1 | gemini.name: 'Trictien tab' -> 'triactin'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #1 | gemini.form: None -> 'tab'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #1 | gemma.name: 'Trictien tab' -> 'triactin'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #1 | gemma.form: None -> 'tab'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #2 | gemini.name: 'Bioginers' -> 'bio gainers'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #2 | gemini.instructions: 'بين الإفطار والسحور\nكوب / ماء' -> 'بين الافطار والسحور كوب ماء'
-cropping&tilting/easy/IMG-20190506-WA0028.jpg | medication #2 | gemma.name: 'Bioginers' -> 'bio gainers'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #0 | gemini.dose: None -> '1'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #0 | gemini.frequency: '1 x 2 x 30' -> '2'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #0 | gemini.duration: None -> '30'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #1 | gemini.dose: None -> '1'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #1 | gemini.frequency: '1 x 3 x 30' -> '3'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #1 | gemini.duration: None -> '30'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #1 | gemini.instructions: 'قرص ٣ مرات قبل الأكل' -> 'قرص 3 مرات قبل الاكل'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #2 | gemini.dose: None -> '1'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #2 | gemini.frequency: '1 x 3 x 30' -> '3'
-cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | medication #2 | gemini.duration: None -> '30'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #0 | gemma.instructions: 'كبسولة بالفم اليوم تكرر @ 1am' -> 'كبسولة بالفم اليوم تكرر 1am'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemini.name: 'Candi cure vag pess' -> 'candi cure'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemini.dose: None -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemini.frequency: '1 X 1 X 3' -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemini.form: None -> 'vag pess'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemini.duration: None -> '3'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemma.name: 'Candi cure vag pess' -> 'candi cure'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemma.dose: None -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemma.frequency: '1x1x3' -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemma.form: None -> 'vag pess'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #1 | gemma.duration: None -> '3'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #2 | gemini.name: 'Kena Comb Cream' -> 'kenacomb'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #2 | gemini.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #2 | gemma.name: 'Kena comb cream' -> 'kenacomb'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #2 | gemma.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemini.dose: None -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemini.frequency: '1 X 2 X 7' -> '2'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemini.duration: None -> '7'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemma.name: 'Turivid' -> 'tarivid'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemma.dose: None -> '1'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemma.frequency: '1x2x7' -> '2'
-cropping&tilting/easy/PHOTO-2020-05-21-23-09-31 (1).jpg | medication #4 | gemma.duration: None -> '7'
-cropping&tilting/easy/PHOTO-2020-06-05-17-07-31.jpg | medication #1 | gemini.instructions: 'حتى التحسن' -> 'حتي التحسن'
-cropping&tilting/easy/PHOTO-2020-06-05-17-07-31.jpg | medication #1 | gemma.name: 'Hydrofun . d' -> 'hydrofun d'
-cropping&tilting/easy/PHOTO-2020-06-25-19-07-13.jpg | medication #0 | gemini.name: 'Veloxef' -> 'velosef'
-cropping&tilting/easy/PHOTO-2020-06-25-19-07-13.jpg | medication #0 | gemini.duration: '/ اسبوع' -> 'اسبوع'
-cropping&tilting/easy/PHOTO-2020-06-25-19-07-13.jpg | medication #1 | gemini.duration: '/ اسبوع' -> 'اسبوع'
-cropping&tilting/easy/PHOTO-2020-06-25-19-07-13.jpg | medication #2 | gemini.name: 'Ketoprorek' -> 'ketoprek'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.name: 'La roche Posay Pigmentclar cream' -> 'la roche posay pigmentclar'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.instructions: 'أكيم بالمساء (ساعة)' -> 'اكيم بالمساء ساعة'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.name: 'La roche Posy Pigmentclar cream' -> 'la roche posy pigmentclar'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.instructions: 'مرة بإيد (مساء)' -> 'مرة بايد مساء'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #1 | gemini.name: 'Anthelios fluid (sunscreen)' -> 'anthelios fluid sunscreen'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #1 | gemma.name: 'Anthelios fluid (sunscreen)' -> 'anthelios fluid sunscreen'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemini.name: 'Dermovate cream' -> 'dermovate'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemini.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemini.instructions: 'أكيم بالمساء للظهر' -> 'اكيم بالمساء للظهر'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemma.name: 'Dermovate cream' -> 'dermovate'
-cropping&tilting/easy/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemma.form: None -> 'cream'
-cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | medication #0 | gemma.name: 'Neursint Tabs' -> 'neursint'
-cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | medication #0 | gemma.form: None -> 'tabs'
-cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | medication #1 | gemma.name: 'Biofreeze gel' -> 'biofreeze'
-cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | medication #1 | gemma.form: None -> 'gel'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #1 | gemini.name: 'Broncho-Pro' -> 'bronchopro'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #1 | gemini.dose: '2.5 سم' -> '2 5 سم'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #1 | gemma.name: 'Broncho-Pro' -> 'bronchopro'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #2 | gemini.frequency: 'كل 6 - 8' -> 'كل 6 8'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #3 | gemma.name: 'chlorpheniramine nasal drop' -> 'chlorpheniramine nasal'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | medication #3 | gemma.form: None -> 'drop'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemini.name: 'Dolipran tab.' -> 'doliprane'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemini.frequency: '١×١' -> '1 1'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemini.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemini.instructions: 'بعد الأكل' -> 'بعد الاكل'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemma.name: 'Dolipran' -> 'doliprane'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #0 | gemma.instructions: 'tb,' -> 'tb'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #1 | gemini.name: 'Myofen cap.' -> 'myofen'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #1 | gemini.frequency: '١×٢' -> '1 2'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #1 | gemini.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #1 | gemma.name: 'Myofun cap' -> 'myofun'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #1 | gemma.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #2 | gemini.name: 'Rx cream' -> 'rx'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #2 | gemini.form: None -> 'cream'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #2 | gemma.name: 'Rx cra' -> 'rx cream'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #3 | gemini.name: 'Myocool cream' -> 'myocool'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #3 | gemini.frequency: '١×٢' -> '1 2'
-cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | medication #3 | gemini.form: None -> 'cream'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemini.name: 'Flebotan cap' -> 'flebotas'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemini.frequency: 'صباحا + قرص مساء' -> 'صباحا قرص مساء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemini.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemini.instructions: 'أو سفنط' -> 'او سفنط'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemma.name: 'Fleboton cap' -> 'flebaton'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemma.frequency: 'ك ك صباح + مساء' -> 'ك ك صباح مساء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #0 | gemma.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #1 | gemini.name: 'Allzyme tab' -> 'allzyme'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #1 | gemini.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #1 | gemma.name: 'ALLThyme tab' -> 'allthyme'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #1 | gemma.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #2 | gemini.name: 'neutator tab' -> 'neutator'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #2 | gemini.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #2 | gemma.name: 'neutrolators tab' -> 'neutrolators'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #2 | gemma.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #3 | gemini.name: 'Dantrilax compound cap' -> 'dantrelax compound'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #3 | gemini.frequency: 'بعد الإفطار وبعد العشاء' -> 'بعد الافطار وبعد العشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #3 | gemini.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #3 | gemma.name: 'Dantrilax Compound Cap' -> 'dantrelax compound'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #3 | gemma.form: None -> 'cap'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #4 | gemini.name: 'Via-Cal tab' -> 'via cal'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #4 | gemini.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #4 | gemma.name: 'Via-Cal tabs' -> 'via cal'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #4 | gemma.form: None -> 'tabs'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #5 | gemini.name: 'Srilane Oint' -> 'srilane'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | medication #5 | gemini.form: None -> 'oint'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #0 | gemini.frequency: 'بعد الإفطار والعشاء' -> 'بعد الافطار والعشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #0 | gemini.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #0 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #1 | gemini.frequency: 'قبل الإفطار والعشاء' -> 'قبل الافطار والعشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #1 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #1 | gemini.instructions: 'قبل الأكل' -> 'قبل الاكل'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #2 | gemini.frequency: 'قبل الإفطار والغداء والعشاء' -> 'قبل الافطار والغداء والعشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #2 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #3 | gemini.frequency: 'قبل الإفطار والغداء والعشاء' -> 'قبل الافطار والغداء والعشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #3 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #4 | gemini.frequency: 'بعد الإفطار والعشاء' -> 'بعد الافطار والعشاء'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #4 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.18.05 PM (5)_diag.jpeg | medication #4 | gemma.name: 'Gastrofat' -> 'gastrofait'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.19.31 PM (6).jpeg | medication #0 | gemini.frequency: '/ 2 wk' -> '2 wk'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.19.31 PM (6).jpeg | medication #0 | gemini.instructions: 'الأصل لأخذه بالصيدلية' -> 'الاصل لاخذه بالصيدلية'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.19.31 PM (6).jpeg | medication #0 | gemma.frequency: '/ 2 wk' -> '2 wk'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.19.31 PM (6).jpeg | medication #0 | gemma.instructions: 'الأبره تحت الجلد' -> 'الابره تحت الجلد'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.30.34 PM (6)_diag.jpeg | medication #0 | gemini.name: 'gynera. Tab' -> 'gynera'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.30.34 PM (6)_diag.jpeg | medication #0 | gemini.form: None -> 'tab'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.30.34 PM (6)_diag.jpeg | medication #0 | gemma.name: 'gynera. tab' -> 'gynera'
-cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.30.34 PM (6)_diag.jpeg | medication #0 | gemma.form: None -> 'tab'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #2 | gemini.name: 'CH-Alpha plus' -> 'ch alpha plus'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #3 | gemma.name: 'Arosoya' -> 'avosoya'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #4 | gemini.instructions: 'قبل الأكل بساعة' -> 'قبل الاكل بساعة'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #5 | gemini.name: 'Biofreeze gel' -> 'biofreeze'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #5 | gemini.form: None -> 'gel'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #5 | gemma.name: 'Brofman gel' -> 'brofman'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #5 | gemma.form: None -> 'gel'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #7 | gemini.name: 'Betolvex amp' -> 'betolvex'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #7 | gemini.form: None -> 'amp'
-cropping&tilting/hard/IMG-20190509-WA0008.jpeg | medication #7 | gemini.instructions: 'عضل / ٣ ايام' -> 'عضل 3 ايام'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #0 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #0 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #0 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #1 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #1 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #1 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #2 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #2 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #2 | gemma.instructions: 'قرص صباحا على الريق' -> 'قرص صباحا علي الريق'
-cropping&tilting/hard/IMG-20190511-WA0015.jpg | medication #3 | gemma.instructions: 'قرص / مساءً' -> 'قرص مساء'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.name: 'La roche posay Pigmentclar cream' -> 'la roche posay pigmentclar'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.form: None -> 'cream'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemini.instructions: 'دهان بالمساء (حساسية' -> 'دهان بالمساء حساسية'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.name: 'La roche Posy Pigmentclar cream' -> 'la roche posy pigmentclar'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.form: None -> 'cream'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #0 | gemma.instructions: 'مرة بإيد (مساء)' -> 'مرة بايد مساء'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #1 | gemini.name: 'Antihelios fluid (sunscreen)' -> 'antihelios fluid sunscreen'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #1 | gemini.instructions: 'صباحاً عند الخروج' -> 'صباحا عند الخروج'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #1 | gemma.name: 'Anthelios fluid (sunscreen)' -> 'anthelios fluid sunscreen'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemini.name: 'Dermovate cream' -> 'dermovate'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemini.form: None -> 'cream'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemma.name: 'Dermovate cream' -> 'dermovate'
-cropping&tilting/hard/PHOTO-2020-07-18-20-01-45.jpg | medication #2 | gemma.form: None -> 'cream'
-cropping&tilting/hard/PHOTO-2020-08-19-15-51-24_diag.jpg | medication #2 | gemini.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2020-08-19-15-51-24_diag.jpg | medication #2 | gemma.name: 'Solapred' -> 'solupred'
-cropping&tilting/hard/PHOTO-2020-08-19-15-51-24_diag.jpg | medication #4 | gemma.name: 'Rivoospire' -> 'rivarospire'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #0 | gemini.frequency: '١ × ٢' -> '1 2'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #0 | gemini.instructions: '(علبتين)' -> 'علبتين'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #0 | gemma.instructions: 'T (علبة)' -> 't علبة'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #1 | gemini.frequency: '١ × ١' -> '1 1'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #1 | gemini.instructions: '(علبة)' -> 'علبة'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #1 | gemma.instructions: 'T (علبة)' -> 't علبة'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #2 | gemini.frequency: '١ × ٢' -> '1 2'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #3 | gemini.frequency: '١ × ٢' -> '1 2'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #4 | gemini.frequency: '١ × ١' -> '1 1'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #4 | gemini.instructions: '(علبة)' -> 'علبة'
-cropping&tilting/hard/PHOTO-2021-01-15-21-03-11_diag.jpg | medication #4 | gemma.instructions: 'T (علبة)' -> 't علبة'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #0 | gemini.frequency: '1/24h' -> '1 24h'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #0 | gemini.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #0 | gemini.instructions: 'قرص ١×٢٤ لمدة ٥ أيام ظهرا' -> 'قرص 1 24 لمدة 5 ايام ظهرا'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #0 | gemma.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #1 | gemini.frequency: '1/12h' -> '1 12h'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #1 | gemini.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #1 | gemini.instructions: 'قرص ١×١٢ لمدة ٥ أيام ١٠ ص - ١٠ م' -> 'قرص 1 12 لمدة 5 ايام 10 ص 10 م'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #1 | gemma.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #2 | gemini.frequency: '١×٢٤' -> '1 24'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #2 | gemini.instructions: 'حقنة بالعضل ١×٢٤ لمدة يومين ثم ٩ ص - ٩ م' -> 'حقنة بالعضل 1 24 لمدة يومين ثم 9 ص 9 م'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #2 | gemma.name: 'Dexamethazone' -> 'dexamethasone'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #3 | gemini.duration: '٥ أيام' -> '5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #3 | gemini.instructions: '٢ قرص للإستحلاب صباحا بعد الإفطار لمدة ٥ أيام ثم يقلل إلى قرص لمدة ٥ أيام' -> '2 قرص للاستحلاب صباحا بعد الافطار لمدة 5 ايام ثم يقلل الي قرص لمدة 5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #3 | gemma.dose: 'قرص للأسابيع' -> 'قرص للاسابيع'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #3 | gemma.duration: 'لمدة أسبوع' -> 'لمدة اسبوع'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #3 | gemma.instructions: 'ثم يصل لقرص كل ٥ أيام' -> 'ثم يصل لقرص كل 5 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #4 | gemini.frequency: '١×١٢' -> '1 12'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #4 | gemini.duration: '٣ أسابيع' -> '3 اسابيع'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #4 | gemini.instructions: 'قرص ١×١٢ لمدة ٣ أسابيع ٩ ص - ٩ م' -> 'قرص 1 12 لمدة 3 اسابيع 9 ص 9 م'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #4 | gemma.name: 'Eliques' -> 'eliquis'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #4 | gemma.duration: 'لمدة ٣ أسابيع' -> 'لمدة 3 اسابيع'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #5 | gemini.duration: '٣ أيام' -> '3 ايام'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #5 | gemini.instructions: 'قرص ١×٦ لمدة ٣ أيام ١٠ ص - ٤ ع - ١٠ م ٤ فجرا' -> 'قرص 1 6 لمدة 3 ايام 10 ص 4 ع 10 م 4 فجرا'
-cropping&tilting/hard/PHOTO-2021-02-20-09-10-38.jpg | medication #5 | gemma.duration: 'لمدة ٣ أيام' -> 'لمدة 3 ايام'
-cropping&tilting/hard/PHOTO-2021-08-23-13-32-59_diag.jpg | medication #0 | gemini.duration: 'لمدة ٤ شهور أخرى' -> 'لمدة 4 شهور اخري'
-cropping&tilting/hard/PHOTO-2021-08-23-13-32-59_diag.jpg | medication #0 | gemini.instructions: 'جرعة شهرية لمدة ٤ شهور (٢ حقنة كل شهر)' -> 'جرعة شهرية لمدة 4 شهور 2 حقنة كل شهر'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #0 | gemini.name: 'peptic caret tab' -> 'peptic care'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #0 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #0 | gemini.form: None -> 'tab'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #0 | gemini.instructions: 'قبل الأكل' -> 'قبل الاكل'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #0 | gemma.name: 'Mu Costa' -> 'mucosta'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #1 | gemini.name: 'Mucosta tab' -> 'mucosta'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #1 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #1 | gemini.form: None -> 'tab'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #1 | gemini.instructions: 'وسط الأكل' -> 'وسط الاكل'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #1 | gemma.name: 'Mosaprid' -> 'mosapride'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #2 | gemini.name: 'Mosaprid tab' -> 'mosapride'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #2 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #2 | gemini.form: None -> 'tab'
-cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | medication #2 | gemini.instructions: 'قبل الأكل' -> 'قبل الاكل'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #0 | gemini.frequency: 'بعد الإفطار والعشاء' -> 'بعد الافطار والعشاء'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #0 | gemini.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #0 | gemini.instructions: 'ك بعد الإفطار والعشاء أسبوع' -> 'ك بعد الافطار والعشاء اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #0 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #1 | gemini.frequency: 'قبل الإفطار والعشاء' -> 'قبل الافطار والعشاء'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #1 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #1 | gemini.instructions: 'قبل الإفطار والعشاء بمدة أسبوعين' -> 'قبل الافطار والعشاء بمدة اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #1 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #2 | gemini.frequency: 'قبل الإفطار والغداء والعشاء' -> 'قبل الافطار والغداء والعشاء'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #2 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #2 | gemini.instructions: 'قبل الإفطار والغداء والعشاء بمدة أسبوعين' -> 'قبل الافطار والغداء والعشاء بمدة اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #2 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #3 | gemini.frequency: 'قبل الإفطار والغداء والعشاء' -> 'قبل الافطار والغداء والعشاء'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #3 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #3 | gemini.instructions: 'قبل الإفطار والغداء والعشاء بمدة أسبوعين' -> 'قبل الافطار والغداء والعشاء بمدة اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #3 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #4 | gemini.frequency: 'بعد الإفطار والعشاء' -> 'بعد الافطار والعشاء'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #4 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #4 | gemini.instructions: 'بعد الإفطار والعشاء بانتظام أسبوعين' -> 'بعد الافطار والعشاء بانتظام اسبوعين'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #4 | gemma.name: 'Gastrofat' -> 'gastrofait'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #5 | gemini.instructions: 'قرص قبل العشاء أو الغداء أو النوم' -> 'قرص قبل العشاء او الغداء او النوم'
-cropping&tilting/hard/PHOTO-2023-12-06-15-11-13 (1).jpg | medication #5 | gemma.name: 'Minalox' -> 'minalax'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #0 | gemini.name: 'Amikalm spy.' -> 'amikalm spy'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #1 | gemini.name: 'Polymart cool gel' -> 'polymart cool'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #1 | gemini.form: None -> 'gel'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #1 | gemma.name: 'Odymart cool gel' -> 'polymart cool'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #1 | gemma.form: None -> 'gel'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #3 | gemini.instructions: 'قرص ٣ مرات يومياً قبل الوجبات' -> 'قرص 3 مرات يوميا قبل الوجبات'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.53.00 AM (1).jpeg | medication #4 | gemini.instructions: 'قرص على الريق يومياً' -> 'قرص علي الريق يوميا'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #2 | gemini.strength: '80/12.5' -> '80 12 5'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #2 | gemma.strength: '80/12.5' -> '80 12 5'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #3 | gemini.strength: '10/20' -> '10 20'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #3 | gemma.strength: '10/20' -> '10 20'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #5 | gemini.instructions: 'قرص قبل الإفطار بساعة' -> 'قرص قبل الافطار بساعة'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.26 AM_diag.jpeg | medication #5 | gemma.instructions: 'قبل الإفطار بـ ساعة' -> 'قبل الافطار بـ ساعة'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #0 | gemini.name: 'Esomeprazole' -> 'aig esomeprazole'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #0 | gemini.instructions: 'قرص على الريق قبل الفطار' -> 'قرص علي الريق قبل الفطار'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #0 | gemma.instructions: 'قرص على الريق قبل الفطار' -> 'قرص علي الريق قبل الفطار'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #1 | gemma.name: 'Eu carbon tabs' -> 'eucarbon'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #1 | gemma.form: None -> 'tabs'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #2 | gemini.name: 'Dolibrane' -> 'doliprane'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #2 | gemma.name: 'Dolibrane tabs' -> 'doliprane'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #2 | gemma.form: None -> 'tabs'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #3 | gemini.name: 'Visceralgin' -> 'visceralgine'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #3 | gemma.name: 'Viscralgin tabs' -> 'visceralgine'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #3 | gemma.form: None -> 'tabs'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #4 | gemini.name: 'Cipro diazole' -> 'ciprodiazole'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #4 | gemma.name: 'Ciprodiatcole tabs' -> 'ciprodiatcole'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #4 | gemma.form: None -> 'tabs'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #5 | gemini.name: 'lidocaine Cream' -> 'lidocaine'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #5 | gemini.form: None -> 'cream'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #5 | gemma.name: 'lidoCaine Cream' -> 'lidocaine'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #5 | gemma.form: None -> 'cream'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #6 | gemini.name: 'GTN Cream' -> 'gtn'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #6 | gemini.form: None -> 'cream'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #6 | gemma.name: 'GTN Cream' -> 'gtn'
-cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | medication #6 | gemma.form: None -> 'cream'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #0 | gemini.strength: '16/12.5' -> '16 12 5'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #0 | gemini.frequency: 'صباحا على الريق' -> 'صباحا علي الريق'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #0 | gemini.instructions: 'على الريق' -> 'علي الريق'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #0 | gemma.strength: '16/12.5' -> '16 12 5'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemini.name: 'plendil TAB' -> 'plendil'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemini.strength: '2.5' -> '2 5'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemini.form: None -> 'tab'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemma.name: 'plendil TAB' -> 'plendil'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemma.strength: '2.5' -> '2 5'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #2 | gemma.form: None -> 'tab'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #5 | gemma.name: 'omega 3plus' -> 'omega 3 plus'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #6 | gemini.name: 'PANADOL TAB ازرق' -> 'panadol ازرق'
-cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | medication #6 | gemini.form: None -> 'tab'
-cropping/easy/120.jpeg | medication #0 | gemini.instructions: 'كبسولة يومياً لمدة ٥ أيام' -> 'كبسولة يوميا لمدة 5 ايام'
-cropping/easy/120.jpeg | medication #0 | gemma.name: 'Zillrowa syr' -> 'zillrowa'
-cropping/easy/120.jpeg | medication #0 | gemma.form: None -> 'syr'
-cropping/easy/120.jpeg | medication #1 | gemini.name: 'Phosolvon Syr.' -> 'phosolvon'
-cropping/easy/120.jpeg | medication #1 | gemini.form: None -> 'syr'
-cropping/easy/120.jpeg | medication #1 | gemma.name: 'pludure syr' -> 'pludure'
-cropping/easy/120.jpeg | medication #1 | gemma.form: None -> 'syr'
-cropping/easy/120.jpeg | medication #2 | gemini.name: 'Mucophyllin Syr' -> 'mucophylline'
-cropping/easy/120.jpeg | medication #2 | gemini.form: None -> 'syr'
-cropping/easy/120.jpeg | medication #2 | gemma.name: 'Mucaplast syr' -> 'mucaplast'
-cropping/easy/120.jpeg | medication #2 | gemma.form: None -> 'syr'
-cropping/easy/120.jpeg | medication #3 | gemini.instructions: 'قرص مساءً' -> 'قرص مساء'
-cropping/easy/120.jpeg | medication #3 | gemma.name: 'Singulair 10mg' -> 'singulair'
-cropping/easy/120.jpeg | medication #4 | gemini.name: 'Broncho-Vaxom cap. (adult)' -> 'broncho vaxom adults'
-cropping/easy/120.jpeg | medication #4 | gemini.form: None -> 'cap'
-cropping/easy/120.jpeg | medication #4 | gemini.instructions: 'كبسولة يومياً لمدة ١٠ أيام في أول كل شهر' -> 'كبسولة يوميا لمدة 10 ايام في اول كل شهر'
-cropping/easy/120.jpeg | medication #4 | gemma.name: 'Branchivan cap (adult)' -> 'branchivan adult'
-cropping/easy/120.jpeg | medication #4 | gemma.form: None -> 'cap'
-cropping/easy/120.jpeg | medication #5 | gemma.name: 'Sertiche 25mg' -> 'sertiche'
-cropping/easy/168.jpeg | medication #0 | gemini.frequency: 'مساءً' -> 'مساء'
-cropping/easy/168.jpeg | medication #1 | gemini.frequency: 'قرصين الإفطار' -> 'قرصين الافطار'
-cropping/easy/168.jpeg | medication #2 | gemini.instructions: '(Lintrage)' -> 'lintrage'
-cropping/easy/168.jpeg | medication #3 | gemini.frequency: 'قرص صباحاً' -> 'قرص صباحا'
-cropping/easy/168.jpeg | medication #4 | gemini.frequency: 'قرص مساءً' -> 'قرص مساء'
-cropping/easy/296.jpeg | medication #0 | gemini.instructions: '(٦٠ حقنه شهريا)' -> '60 حقنه شهريا'
-cropping/easy/296.jpeg | medication #0 | gemma.name: 'somatropin 4U' -> 'somatropin'
-cropping/easy/296.jpeg | medication #0 | gemma.instructions: '0.6 وحدة (حقنة تحت الجلد)' -> '0 6 وحدة حقنة تحت الجلد'
-cropping/easy/296.jpeg | medication #1 | gemini.name: 'ferroglobin' -> 'feroglobin'
-cropping/easy/296.jpeg | medication #1 | gemma.name: 'ferroglobin' -> 'feroglobin'
-cropping/easy/296.jpeg | medication #2 | gemini.name: 'v-drop' -> 'v'
-cropping/easy/296.jpeg | medication #2 | gemini.form: None -> 'drop'
-cropping/easy/296.jpeg | medication #3 | gemini.name: 'zinctrone' -> 'zinctron'
-cropping/easy/IMG-20190404-WA0010.jpg | medication #0 | gemini.instructions: '( ٣٧ )' -> '37'
-cropping/easy/IMG-20190502-WA0022_diag.jpeg | medication #2 | gemini.name: 'Babel Tone' -> 'babetone'
-cropping/easy/IMG-20190502-WA0022_diag.jpeg | medication #2 | gemma.name: 'Babeton' -> 'babetone'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #2 | gemini.strength: '2.5' -> '2 5'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #2 | gemini.frequency: 'صباحاً' -> 'صباحا'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #2 | gemma.strength: '2.5' -> '2 5'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #2 | gemma.instructions: 'قرص صباحاً' -> 'قرص صباحا'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #3 | gemini.frequency: 'يومياً' -> 'يوميا'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #3 | gemma.instructions: 'قرص يومياً' -> 'قرص يوميا'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #4 | gemini.name: 'Queliper' -> 'quelipar'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #4 | gemini.frequency: 'يومياً' -> 'يوميا'
-cropping/easy/IMG-20190529-WA0001.jpg | medication #4 | gemma.instructions: 'قرص يومياً' -> 'قرص يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemini.name: 'L.carnitin Soln' -> 'l carnitine'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemini.dose: '½ قطارة' -> '1 2 قطارة'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemini.form: None -> 'soln'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemma.name: 'L. carnitin solun' -> 'l carnitin solun'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemma.dose: '١/٢ قطارة' -> '1 2 قطارة'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #0 | gemma.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #1 | gemini.frequency: 'مرة يومياً' -> 'مرة يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #1 | gemma.frequency: 'مرة يومياً' -> 'مرة يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.name: 'Baclofen Tab' -> 'baclofen'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.dose: '¼ قرص' -> '1 4 قرص'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.frequency: '/ ١٢ ساعة' -> '12 ساعة'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.form: None -> 'tab'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.duration: 'لمدة أسبوع' -> 'لمدة اسبوع'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemini.instructions: 'ثم ¼ قرص ٢ مرات يومياً' -> 'ثم 1 4 قرص 2 مرات يوميا'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemma.name: 'Baclafen Tab' -> 'baclofen'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemma.dose: '١/٤ قرصي ١٢ ساعة' -> '1 4 قرصي 12 ساعة'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemma.frequency: 'عدة أسابيع' -> 'عدة اسابيع'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemma.form: None -> 'tab'
-cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | medication #2 | gemma.instructions: 'ثم ١/٢ قرص ٢ مرة يومياً' -> 'ثم 1 2 قرص 2 مرة يوميا'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #0 | gemini.frequency: 'ك واحدة يومياً بعد الغداء' -> 'ك واحدة يوميا بعد الغداء'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #0 | gemini.instructions: 'علاج شهرى مستمر' -> 'علاج شهري مستمر'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.name: 'Xamiol scalp gel' -> 'xamiol scalp'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.frequency: 'مساءً' -> 'مساء'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.form: None -> 'gel'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.instructions: 'أعلاه شهرين' -> 'اعلاه شهرين'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.name: 'Daivobet Oint' -> 'daivobet'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.frequency: 'دهان مرة واحدة يومياً' -> 'دهان مرة واحدة يوميا'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.form: None -> 'oint'
-cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.instructions: 'أعلاه شهرين' -> 'اعلاه شهرين'
-cropping/hard/009_diag.jpeg | medication #0 | gemini.strength: '50/500' -> '50 500'
-cropping/hard/224_diag.jpeg | medication #0 | gemma.duration: 'أسبوعين' -> 'اسبوعين'
-cropping/hard/224_diag.jpeg | medication #2 | gemma.name: 'vendexie' -> 'vendexine'
-cropping/hard/224_diag.jpeg | medication #2 | gemma.duration: 'أسبوع' -> 'اسبوع'
-cropping/hard/224_diag.jpeg | medication #3 | gemini.frequency: 'يومياً' -> 'يوميا'
-cropping/hard/224_diag.jpeg | medication #3 | gemma.duration: 'أسبوعين' -> 'اسبوعين'
-cropping/hard/296.jpeg | medication #0 | gemini.instructions: '(٦٠ حقنه شهريا)' -> '60 حقنه شهريا'
-cropping/hard/296.jpeg | medication #0 | gemma.name: 'somatropin 4U' -> 'somatropin'
-cropping/hard/296.jpeg | medication #0 | gemma.instructions: '0.6 وحدة (حقنة تحت الجلد)' -> '0 6 وحدة حقنة تحت الجلد'
-cropping/hard/296.jpeg | medication #1 | gemini.name: 'ferroglobin' -> 'feroglobin'
-cropping/hard/296.jpeg | medication #1 | gemma.name: 'ferroglobin' -> 'feroglobin'
-cropping/hard/296.jpeg | medication #2 | gemini.name: 'v-drop' -> 'v'
-cropping/hard/296.jpeg | medication #2 | gemini.form: None -> 'drop'
-cropping/hard/296.jpeg | medication #3 | gemini.name: 'zinctrone' -> 'zinctron'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #3 | gemini.name: 'Azarga Eye drop' -> 'azarga'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #3 | gemini.frequency: '(2)' -> '2'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #3 | gemini.form: None -> 'eye drop'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #3 | gemma.name: 'Azarga Eye drop' -> 'azarga'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #3 | gemma.form: None -> 'eye drop'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #4 | gemini.name: 'Travatan Eye drop' -> 'travatan'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #4 | gemini.frequency: '(2)' -> '2'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #4 | gemini.form: None -> 'eye drop'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #4 | gemma.name: 'Travatan Eye drop' -> 'travatan'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #4 | gemma.form: None -> 'eye drop'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #5 | gemini.strength: '0.4mcg' -> '0 4mcg'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #5 | gemma.strength: '0.4mg' -> '0 4mg'
-cropping/hard/PHOTO-2021-01-07-16-55-10_diag.jpg | medication #10 | gemma.name: 'Atacard' -> 'atacand'
-cropping/hard/PHOTO-2021-08-04-18-52-36.jpg | medication #1 | gemma.name: 'Erdalytic' -> 'erdolytic'
-cropping/hard/PHOTO-2021-08-04-18-52-36.jpg | medication #3 | gemini.name: 'Esomeprazole' -> 'aig esomeprazole'
-cropping/hard/PHOTO-2021-08-04-18-52-36.jpg | medication #4 | gemini.instructions: 'حبة مساء\nالأنف والرئتان' -> 'حبة مساء الانف والرئتان'
-cropping/hard/PHOTO-2021-08-04-18-52-36.jpg | medication #7 | gemma.name: 'Flutifarm' -> 'flutiform'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #0 | gemini.strength: '0.4' -> '0 4'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #0 | gemma.strength: '0.9' -> '0 9'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #1 | gemini.instructions: 'cap / قرص' -> 'cap قرص'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #1 | gemma.name: 'Pepon plus cap' -> 'pepon plus'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #1 | gemma.form: None -> 'cap'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #2 | gemini.frequency: 'يومياً' -> 'يوميا'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #2 | gemini.instructions: 'tab / قرص' -> 'tab قرص'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #2 | gemma.name: 'Stankoprex Sny tab' -> 'stankoprex sny'
-cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | medication #2 | gemma.form: None -> 'tab'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (2)_diag.jpeg | medication #0 | gemini.strength: '40 mg/0.8ml' -> '40 mg 0 8ml'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (2)_diag.jpeg | medication #0 | gemma.name: 'Hyrimoz 40 mg' -> 'hyrimoz'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #0 | gemini.frequency: 'ك واحدة يومياً بعد الغداء' -> 'ك واحدة يوميا بعد الغداء'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #0 | gemini.instructions: 'علاج شهرى مستمر' -> 'علاج شهري مستمر'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.name: 'Xamiol scalp gel' -> 'xamiol scalp'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.frequency: 'مساءً' -> 'مساء'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.form: None -> 'gel'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #1 | gemini.instructions: 'أعلاه شهرين' -> 'اعلاه شهرين'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.name: 'Daivobet Oint' -> 'daivobet'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.frequency: 'دهان مرة واحدة يومياً' -> 'دهان مرة واحدة يوميا'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.form: None -> 'oint'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | medication #2 | gemini.instructions: 'أعلاه شهرين' -> 'اعلاه شهرين'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | medication #0 | gemma.name: 'Allhesys 7mg' -> 'allhesys'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | medication #0 | gemma.dose: None -> '1'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | medication #0 | gemma.frequency: '1x1x30' -> '1'
-cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | medication #0 | gemma.duration: None -> '30'
-cropping/hard/WhatsApp Image 2026-09-16 at 12.51.55 PM.jpeg | medication #0 | gemini.name: 'Kombiglyze XR' -> 'kombiglyze xr 5'
-cropping/hard/WhatsApp Image 2026-09-16 at 12.51.55 PM.jpeg | medication #0 | gemini.strength: '5/1000' -> '5 1000'
-cropping/hard/WhatsApp Image 2026-09-16 at 12.51.55 PM.jpeg | medication #0 | gemma.name: 'Kombiglyze XR' -> 'kombiglyze xr 5'
-cropping/hard/WhatsApp Image 2026-09-16 at 12.51.55 PM.jpeg | medication #0 | gemma.strength: '5/1000' -> '5 1000'
-cropping/hard/WhatsApp Image 2026-09-16 at 12.51.55 PM.jpeg | medication #6 | gemma.name: 'Lipantyl' -> 'lipanthyl'
-heavy_pre/easy/010_diag.jpeg | medication #1 | gemini.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-heavy_pre/easy/010_diag.jpeg | medication #2 | gemini.strength: '25/5' -> '25 5'
-heavy_pre/easy/010_diag.jpeg | medication #2 | gemini.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-heavy_pre/easy/010_diag.jpeg | medication #3 | gemini.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-heavy_pre/easy/010_diag.jpeg | medication #5 | gemini.frequency: 'ظهراً' -> 'ظهرا'
-heavy_pre/easy/010_diag.jpeg | medication #6 | gemma.name: 'Nephrocare' -> 'nephrocal'
-heavy_pre/easy/IMG-20190422-WA0073.jpg | medication #0 | gemma.strength: '20/10' -> '20 10'
-heavy_pre/easy/IMG-20190422-WA0073.jpg | medication #1 | gemma.name: 'glucaophage' -> 'glucophage'
-heavy_pre/easy/PHOTO-2020-06-02-14-33-57.jpg | medication #0 | gemma.name: 'Xithron' -> 'xithrone'
-heavy_pre/easy/PHOTO-2020-06-02-14-33-57.jpg | medication #1 | gemini.frequency: '١ * ٣' -> '1 3'
-heavy_pre/easy/PHOTO-2020-06-05-22-01-47.jpg | medication #2 | gemini.frequency: '١ × ٢ بعد الاكل' -> '1 2 بعد الاكل'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #1 | gemma.name: 'vofacid. elf' -> 'vofacid elf'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #2 | gemini.name: 'Bronchicum syrup' -> 'bronchicum'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #2 | gemini.form: None -> 'syrup'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #2 | gemma.name: 'Bronchicum syrup' -> 'bronchicum'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #2 | gemma.form: None -> 'syrup'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #4 | gemini.name: 'Fusi cort cream' -> 'fusi cort'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #4 | gemini.form: None -> 'cream'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #4 | gemma.name: 'cusicort cream' -> 'cusicort'
-heavy_pre/easy/PHOTO-2020-10-27-18-58-08.jpg | medication #4 | gemma.form: None -> 'cream'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #0 | gemini.name: 'Anticox' -> 'anti cox'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #0 | gemini.frequency: 'حقن يوميا لمدة 3 أيام' -> 'حقن يوميا لمدة 3 ايام'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #0 | gemini.duration: '3 أيام' -> '3 ايام'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #1 | gemini.name: 'Eticoxica' -> 'eticoxia'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #1 | gemini.frequency: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #1 | gemini.instructions: 'بعد الإفطار' -> 'بعد الافطار'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #2 | gemini.frequency: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #2 | gemini.instructions: 'بعد الإفطار' -> 'بعد الافطار'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #4 | gemini.strength: '1.0 mcg' -> '1 0 mcg'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #4 | gemma.strength: '1.0 mg' -> '1 0 mg'
-heavy_pre/easy/PHOTO-2022-11-07-21-02-46_diag.jpg | medication #5 | gemini.name: 'Duledeprine' -> 'duleprin'
-heavy_pre/easy/PHOTO-2023-02-22-11-18-12.jpg | medication #0 | gemini.instructions: 'قطرة بالأذن' -> 'قطرة بالاذن'
-heavy_pre/easy/PHOTO-2023-07-01-12-47-21.jpg | medication #0 | gemini.instructions: 'لعلاج ...' -> 'لعلاج'
-heavy_pre/easy/PHOTO-2023-08-02-14-38-46.jpg | medication #0 | gemini.frequency: 'مره يومياً' -> 'مره يوميا'
-heavy_pre/easy/PHOTO-2023-08-02-14-38-46.jpg | medication #0 | gemini.instructions: '(5tab)\nبعد الاكل بـ ٢س او قبل بساعه' -> '5tab بعد الاكل بـ 2س او قبل بساعه'
-heavy_pre/easy/PHOTO-2023-08-02-14-38-46.jpg | medication #2 | gemini.frequency: 'كل ١٢ ساعة (مرتين)' -> 'كل 12 ساعة مرتين'
-heavy_pre/easy/PHOTO-2023-08-02-14-38-46.jpg | medication #2 | gemma.instructions: '(مؤقتا)' -> 'مؤقتا'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #0 | gemini.name: 'Cometrex' -> 'comtrex'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #0 | gemini.frequency: '١ × ٢' -> '1 2'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #0 | gemini.duration: 'أسبوع' -> 'اسبوع'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #0 | gemma.name: 'cometrex' -> 'comtrex'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #1 | gemini.name: 'mucosal cp.' -> 'mucosal cp'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #1 | gemini.frequency: '١ × ٣' -> '1 3'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #1 | gemini.duration: '٥ أيام أسبوع' -> '5 ايام اسبوع'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #2 | gemini.name: 'Otrivin ND (Adult)' -> 'otrivin nd adult'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #2 | gemini.instructions: 'بخاخة بالأنف عند اللزوم' -> 'بخاخة بالانف عند اللزوم'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.53.09 AM_diag.jpeg | medication #2 | gemma.name: 'Motrin MD (Adult)' -> 'motrin md adult'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | medication #0 | gemma.name: 'futac caps' -> 'futac'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | medication #0 | gemma.form: None -> 'caps'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | medication #2 | gemini.strength: '20,000' -> '20 000'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | medication #2 | gemma.strength: '10,000' -> '10 000'
-heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | medication #3 | gemini.name: 'Centravita palm' -> 'centravita palmi'
-heavy_pre/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (2)_diag.jpeg | medication #0 | gemini.strength: '40 mg/0.8ml' -> '40 mg 0 8ml'
-heavy_pre/hard/005_diag_proc.jpeg | medication #0 | gemini.instructions: 'حبة قبل الإفطار' -> 'حبة قبل الافطار'
-heavy_pre/hard/005_diag_proc.jpeg | medication #0 | gemma.instructions: 'مرة قبل الأكل' -> 'مرة قبل الاكل'
-heavy_pre/hard/005_diag_proc.jpeg | medication #1 | gemini.instructions: 'حبة قبل الإفطار' -> 'حبة قبل الافطار'
-heavy_pre/hard/005_diag_proc.jpeg | medication #1 | gemma.instructions: 'مرة قبل الأكل' -> 'مرة قبل الاكل'
-heavy_pre/hard/005_diag_proc.jpeg | medication #2 | gemini.instructions: 'حبة وسط الإفطار' -> 'حبة وسط الافطار'
-heavy_pre/hard/005_diag_proc.jpeg | medication #2 | gemma.instructions: 'مرة وسط الأكل' -> 'مرة وسط الاكل'
-heavy_pre/hard/005_diag_proc.jpeg | medication #3 | gemma.instructions: 'مرة صباحاً' -> 'مرة صباحا'
-heavy_pre/hard/005_diag_proc.jpeg | medication #4 | gemma.instructions: 'مرة ظهراً' -> 'مرة ظهرا'
-heavy_pre/hard/005_diag_proc.jpeg | medication #5 | gemma.instructions: 'مرة مساءً بعد العشاء' -> 'مرة مساء بعد العشاء'
-heavy_pre/hard/005_diag_proc.jpeg | medication #6 | gemma.instructions: 'مرة مساءً بعد العشاء' -> 'مرة مساء بعد العشاء'
-heavy_pre/hard/033.jpeg | medication #2 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-heavy_pre/hard/033.jpeg | medication #4 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-heavy_pre/hard/198_diag.jpeg | medication #0 | gemini.frequency: 'ع / ١٢ س' -> 'ع 12 س'
-heavy_pre/hard/198_diag.jpeg | medication #0 | gemma.name: 'Cereblysin' -> 'cerebrolysin'
-heavy_pre/hard/198_diag.jpeg | medication #1 | gemini.frequency: 'ع / ٣ ايام' -> 'ع 3 ايام'
-heavy_pre/hard/198_diag.jpeg | medication #1 | gemma.instructions: '١ حقن / ١' -> '1 حقن 1'
-heavy_pre/hard/198_diag.jpeg | medication #2 | gemini.frequency: '١ * ٢' -> '1 2'
-heavy_pre/hard/IMG-20190416-WA0011.jpg | medication #0 | gemini.instructions: 'ey. dy\nقطرة كل ١٢ ساعة' -> 'ey dy قطرة كل 12 ساعة'
-heavy_pre/hard/IMG-20190416-WA0011.jpg | medication #1 | gemini.instructions: 'ey. dy\nقطرة واحدة قبل النوم' -> 'ey dy قطرة واحدة قبل النوم'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #0 | gemini.name: 'Pletal' -> 'pletaal'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #2 | gemini.name: 'Tritace comp' -> 'tritace comp 5'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #3 | gemini.instructions: '(Bisoceid)' -> 'bisoceid'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #4 | gemini.strength: '7.5' -> '7 5'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #4 | gemma.name: 'Bradipest' -> 'bradipect'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #4 | gemma.strength: '7.5' -> '7 5'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #5 | gemma.instructions: 'ليلًا' -> 'ليلا'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #6 | gemini.name: 'choltitimb' -> 'choletimb'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #6 | gemma.name: 'cholestimb' -> 'choletimb'
-heavy_pre/hard/IMG-20190507-WA0004.jpg | medication #6 | gemma.instructions: 'ليلًا' -> 'ليلا'
-heavy_pre/hard/PHOTO-2020-03-17-19-20-32_diag.jpg | medication #2 | gemma.instructions: 'مرضى قبل الفطار' -> 'مرضي قبل الفطار'
-heavy_pre/hard/PHOTO-2020-03-17-19-20-32_diag.jpg | medication #3 | gemma.frequency: 'مرضى يوميا' -> 'مرضي يوميا'
-heavy_pre/hard/PHOTO-2020-03-17-19-20-32_diag.jpg | medication #3 | gemma.duration: 'لمدة أسبوعين' -> 'لمدة اسبوعين'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #0 | gemini.strength: '600,000' -> '600 000'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #0 | gemma.strength: '600,000' -> '600 000'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #1 | gemini.instructions: 'قبل الأكل' -> 'قبل الاكل'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #2 | gemini.name: 'euconlan' -> 'euconlon'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #2 | gemini.instructions: 'بعد الأكل' -> 'بعد الاكل'
-heavy_pre/hard/PHOTO-2022-06-23-19-56-56.jpg | medication #3 | gemini.instructions: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-heavy_pre/hard/PHOTO-2023-01-05-15-11-48_diag.jpg | medication #1 | gemini.name: 'Diamond-emitolic' -> 'diamond emifolic'
-heavy_pre/hard/PHOTO-2023-01-05-15-11-48_diag.jpg | medication #1 | gemma.name: 'Diamond- emifolic' -> 'diamond emifolic'
-heavy_pre/hard/PHOTO-2023-01-05-15-11-48_diag.jpg | medication #3 | gemini.name: 'Cal-heparin' -> 'cal heparine'
-heavy_pre/hard/PHOTO-2023-01-05-15-11-48_diag.jpg | medication #3 | gemini.strength: '5,000 I.U' -> '5 000 i u'
-heavy_pre/hard/Screenshot.png | medication #0 | gemini.name: 'Depakine drops' -> 'depakine'
-heavy_pre/hard/Screenshot.png | medication #0 | gemini.form: None -> 'drops'
-heavy_pre/hard/Screenshot.png | medication #0 | gemma.name: 'Depakine drops' -> 'depakine'
-heavy_pre/hard/Screenshot.png | medication #0 | gemma.form: None -> 'drops'
-heavy_pre/hard/Screenshot.png | medication #1 | gemini.dose: '٢.٥ سم' -> '2 5 سم'
-heavy_pre/hard/Screenshot.png | medication #1 | gemma.name: 'E Throxin syp' -> 'e throxin'
-heavy_pre/hard/Screenshot.png | medication #1 | gemma.form: None -> 'syp'
-heavy_pre/hard/Screenshot.png | medication #1 | gemma.instructions: '1.5 مل' -> '1 5 مل'
-heavy_pre/hard/Screenshot.png | medication #2 | gemini.dose: '٢.٥ سم' -> '2 5 سم'
-heavy_pre/hard/Screenshot.png | medication #2 | gemma.name: 'sodium benzoate syp' -> 'sodium benzoate'
-heavy_pre/hard/Screenshot.png | medication #2 | gemma.form: None -> 'syp'
-heavy_pre/hard/Screenshot.png | medication #3 | gemma.name: 'Nexium 20 cap' -> 'nexium 20'
-heavy_pre/hard/Screenshot.png | medication #3 | gemma.form: None -> 'cap'
-heavy_pre/hard/Screenshot.png | medication #4 | gemma.name: 'Convulgon 50 cap' -> 'convulgon 50'
-heavy_pre/hard/Screenshot.png | medication #4 | gemma.form: None -> 'cap'
-heavy_pre/hard/Screenshot.png | medication #5 | gemini.duration: '٥ أيام' -> '5 ايام'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.09.34 PM (4)_diag_proc.jpeg | medication #0 | gemini.name: 'Xolair 150 vial' -> 'xolair 150'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.09.34 PM (4)_diag_proc.jpeg | medication #0 | gemini.form: None -> 'vial'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.09.34 PM (4)_diag_proc.jpeg | medication #0 | gemini.duration: 'لمدة 4 شهور أخرى' -> 'لمدة 4 شهور اخري'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.09.34 PM (4)_diag_proc.jpeg | medication #0 | gemini.instructions: 'عدد 2 حقنة جرعة شهريا لمدة الاربع شهور التاليه ( 4 حقنة كل شهر )' -> 'عدد 2 حقنة جرعة شهريا لمدة الاربع شهور التاليه 4 حقنة كل شهر'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #0 | gemini.instructions: 'حقنة عضل / ١٢ ساعة لمدة يومين' -> 'حقنة عضل 12 ساعة لمدة يومين'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #0 | gemma.instructions: 'حقنة عضل / ١٢ ساعة لمدة يومين' -> 'حقنة عضل 12 ساعة لمدة يومين'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemini.instructions: 'قرص يومياً لمدة شهر' -> 'قرص يوميا لمدة شهر'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemma.frequency: 'قرص يومياً' -> 'قرص يوميا'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #2 | gemini.name: 'Nibiotic' -> 'unibiotic'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemini.instructions: 'كبسولة شفط / ١٢ ساعة عند اللزوم' -> 'كبسولة شفط 12 ساعة عند اللزوم'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemma.name: 'Miflohide' -> 'miflonide'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemma.instructions: 'كبسولة شرب / ١٢ ساعة عند اللزوم' -> 'كبسولة شرب 12 ساعة عند اللزوم'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.name: 'oplax شراب' -> 'oplax'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.frequency: 'يومياً' -> 'يوميا'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.form: None -> 'شراب'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.instructions: 'جرعتين يومياً عند اللزوم' -> 'جرعتين يوميا عند اللزوم'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemma.name: 'Oplax شراب' -> 'oplax'
-heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemma.form: None -> 'شراب'
-no_pre/easy/001_diag.jpeg | medication #0 | gemini.strength: '20/10' -> '20 10'
-no_pre/easy/001_diag.jpeg | medication #0 | gemini.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #0 | gemini.frequency: '1x1x30' -> '1'
-no_pre/easy/001_diag.jpeg | medication #0 | gemini.duration: None -> '30'
-no_pre/easy/001_diag.jpeg | medication #0 | gemma.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #0 | gemma.frequency: '1x1x1' -> '1'
-no_pre/easy/001_diag.jpeg | medication #0 | gemma.duration: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #1 | gemini.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #1 | gemini.frequency: '1x1x30' -> '1'
-no_pre/easy/001_diag.jpeg | medication #1 | gemini.duration: None -> '30'
-no_pre/easy/001_diag.jpeg | medication #1 | gemma.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #1 | gemma.frequency: '1x1x1' -> '1'
-no_pre/easy/001_diag.jpeg | medication #1 | gemma.duration: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #2 | gemini.name: 'Asprotect' -> 'asp protect'
-no_pre/easy/001_diag.jpeg | medication #2 | gemini.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #2 | gemini.frequency: '1x1x30' -> '1'
-no_pre/easy/001_diag.jpeg | medication #2 | gemini.duration: None -> '30'
-no_pre/easy/001_diag.jpeg | medication #2 | gemma.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #2 | gemma.frequency: '1x1x1' -> '1'
-no_pre/easy/001_diag.jpeg | medication #2 | gemma.duration: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #3 | gemini.name: 'Methytechno patches' -> 'methytechno'
-no_pre/easy/001_diag.jpeg | medication #3 | gemini.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #3 | gemini.frequency: '1x1x30' -> '1'
-no_pre/easy/001_diag.jpeg | medication #3 | gemini.form: None -> 'patches'
-no_pre/easy/001_diag.jpeg | medication #3 | gemini.duration: None -> '30'
-no_pre/easy/001_diag.jpeg | medication #3 | gemma.name: 'Methyltechus patches' -> 'methyl technu'
-no_pre/easy/001_diag.jpeg | medication #3 | gemma.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #3 | gemma.frequency: '1x1x1' -> '1'
-no_pre/easy/001_diag.jpeg | medication #3 | gemma.form: None -> 'patches'
-no_pre/easy/001_diag.jpeg | medication #3 | gemma.duration: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #4 | gemini.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #4 | gemini.frequency: '1x1x30' -> '1'
-no_pre/easy/001_diag.jpeg | medication #4 | gemini.duration: None -> '30'
-no_pre/easy/001_diag.jpeg | medication #4 | gemma.name: 'Controlock' -> 'controloc'
-no_pre/easy/001_diag.jpeg | medication #4 | gemma.dose: None -> '1'
-no_pre/easy/001_diag.jpeg | medication #4 | gemma.frequency: '1x1x1' -> '1'
-no_pre/easy/001_diag.jpeg | medication #4 | gemma.duration: None -> '1'
-no_pre/easy/001_diag_proc.pdf | medication #0 | gemini.name: 'Cti Alphaplus sach.' -> 'cti alphaplus sach'
-no_pre/easy/001_diag_proc.pdf | medication #0 | gemma.name: 'Alpha plus sach.' -> 'alpha plus sach'
-no_pre/easy/001_diag_proc.pdf | medication #1 | gemini.name: 'Alphintern tab' -> 'alphintern'
-no_pre/easy/001_diag_proc.pdf | medication #1 | gemini.form: None -> 'tab'
-no_pre/easy/001_diag_proc.pdf | medication #1 | gemma.name: 'Alphintan tab' -> 'alphintan'
-no_pre/easy/001_diag_proc.pdf | medication #1 | gemma.form: None -> 'tab'
-no_pre/easy/001_diag_proc.pdf | medication #2 | gemini.name: 'Recoxibright tab' -> 'recoxibright'
-no_pre/easy/001_diag_proc.pdf | medication #2 | gemini.form: None -> 'tab'
-no_pre/easy/001_diag_proc.pdf | medication #2 | gemma.name: 'Recobright' -> 'recoxibright'
-no_pre/easy/001_diag_proc.pdf | medication #3 | gemini.name: 'Conventin tab' -> 'conventin'
-no_pre/easy/001_diag_proc.pdf | medication #3 | gemini.form: None -> 'tab'
-no_pre/easy/001_diag_proc.pdf | medication #3 | gemma.name: 'Comventin' -> 'conventin'
-no_pre/easy/001_diag_proc.pdf | medication #4 | gemini.name: 'fast free spray' -> 'fast freeze'
-no_pre/easy/001_diag_proc.pdf | medication #4 | gemini.form: None -> 'spray'
-no_pre/easy/001_diag_proc.pdf | medication #4 | gemma.name: 'fast free spray' -> 'fast freeze'
-no_pre/easy/001_diag_proc.pdf | medication #4 | gemma.form: None -> 'spray'
-no_pre/easy/001_diag_proc.pdf | medication #5 | gemini.name: 'Alphention tab' -> 'alphention'
-no_pre/easy/001_diag_proc.pdf | medication #5 | gemini.form: None -> 'tab'
-no_pre/easy/002.jpeg | medication #0 | gemini.name: 'Dimra tab' -> 'dimra'
-no_pre/easy/002.jpeg | medication #0 | gemini.form: None -> 'tab'
-no_pre/easy/002.jpeg | medication #1 | gemini.name: 'Anrecox 90 tab' -> 'anrecox 90'
-no_pre/easy/002.jpeg | medication #1 | gemini.form: None -> 'tab'
-no_pre/easy/002.jpeg | medication #3 | gemini.name: 'Coolment gel' -> 'coolment'
-no_pre/easy/002.jpeg | medication #3 | gemini.form: None -> 'gel'
-no_pre/easy/006.pdf | medication #0 | gemini.name: 'Multirelax' -> 'multi relax'
-no_pre/easy/006.pdf | medication #0 | gemma.name: 'Multirelax' -> 'multi relax'
-no_pre/easy/006.pdf | medication #1 | gemma.name: 'Convertin' -> 'conventin'
-no_pre/easy/014.pdf | medication #0 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/014.pdf | medication #0 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/020_diag.pdf | medication #0 | gemini.frequency: 'يوميّاً' -> 'يوميا'
-no_pre/easy/020_diag.pdf | medication #1 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/020_diag.pdf | medication #1 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/020_diag.pdf | medication #2 | gemini.frequency: 'يوميّاً' -> 'يوميا'
-no_pre/easy/029_diag.pdf | medication #0 | gemini.dose: None -> '1'
-no_pre/easy/029_diag.pdf | medication #0 | gemini.frequency: '1 x 1 x 5' -> '1'
-no_pre/easy/029_diag.pdf | medication #0 | gemini.duration: None -> '5'
-no_pre/easy/029_diag.pdf | medication #2 | gemini.dose: None -> '1'
-no_pre/easy/029_diag.pdf | medication #2 | gemini.frequency: '1 x 1 x 5' -> '1'
-no_pre/easy/029_diag.pdf | medication #2 | gemini.duration: None -> '5'
-no_pre/easy/034.pdf | medication #1 | gemini.name: 'Zyretic' -> 'zyrtic'
-no_pre/easy/034.pdf | medication #1 | gemini.instructions: 'قرص مساءاً' -> 'قرص مساءا'
-no_pre/easy/034.pdf | medication #1 | gemma.name: 'Zyretic' -> 'zyrtic'
-no_pre/easy/034.pdf | medication #2 | gemini.name: 'Dolipran' -> 'doliprane'
-no_pre/easy/034.pdf | medication #2 | gemini.instructions: 'قرص ع قيّأ' -> 'قرص ع قيا'
-no_pre/easy/034.pdf | medication #2 | gemma.name: 'Dolipran' -> 'doliprane'
-no_pre/easy/034.pdf | medication #3 | gemini.name: 'Phenedone syr' -> 'phenadone'
-no_pre/easy/034.pdf | medication #3 | gemini.form: None -> 'syr'
-no_pre/easy/056_diag.pdf | medication #0 | gemini.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #0 | gemma.name: 'Ciprohar' -> 'ciprofar'
-no_pre/easy/056_diag.pdf | medication #0 | gemma.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #1 | gemini.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #1 | gemma.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #3 | gemini.name: 'Muco SR' -> 'muco s r'
-no_pre/easy/056_diag.pdf | medication #3 | gemini.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #3 | gemma.name: 'Muco SR' -> 'muco s r'
-no_pre/easy/056_diag.pdf | medication #3 | gemma.duration: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/056_diag.pdf | medication #5 | gemini.name: 'Normifrin Nasal Spray' -> 'normifrin'
-no_pre/easy/056_diag.pdf | medication #5 | gemini.dose: '٢ بخة للأنف' -> '2 بخة للانف'
-no_pre/easy/056_diag.pdf | medication #5 | gemini.form: None -> 'nasal spray'
-no_pre/easy/056_diag.pdf | medication #5 | gemma.name: 'Normitrin Nasal Spray' -> 'normifrin'
-no_pre/easy/056_diag.pdf | medication #5 | gemma.form: None -> 'nasal spray'
-no_pre/easy/056_diag.pdf | medication #5 | gemma.instructions: 'للأنف' -> 'للانف'
-no_pre/easy/056_diag.pdf | medication #6 | gemini.name: 'Norhinose Nasal Spray' -> 'norhinose'
-no_pre/easy/056_diag.pdf | medication #6 | gemini.dose: '٢ بخة للأنف' -> '2 بخة للانف'
-no_pre/easy/056_diag.pdf | medication #6 | gemini.form: None -> 'nasal spray'
-no_pre/easy/056_diag.pdf | medication #6 | gemma.name: 'Norhinose Nasal Spray' -> 'norhinose'
-no_pre/easy/056_diag.pdf | medication #6 | gemma.form: None -> 'nasal spray'
-no_pre/easy/056_diag.pdf | medication #6 | gemma.instructions: 'للأنف' -> 'للانف'
-no_pre/easy/066.pdf | medication #1 | gemini.name: 'Milga adv. T' -> 'milga adv'
-no_pre/easy/066.pdf | medication #1 | gemma.name: 'Milga adv. T' -> 'milga adv'
-no_pre/easy/066.pdf | medication #2 | gemini.name: 'Safetran cap.' -> 'safetran'
-no_pre/easy/066.pdf | medication #2 | gemini.form: None -> 'cap'
-no_pre/easy/066.pdf | medication #2 | gemma.name: 'Safetrain cap.' -> 'safetrain'
-no_pre/easy/066.pdf | medication #2 | gemma.form: None -> 'cap'
-no_pre/easy/066.pdf | medication #3 | gemini.name: 'Binge lotion' -> 'binge'
-no_pre/easy/066.pdf | medication #3 | gemini.form: None -> 'lotion'
-no_pre/easy/066.pdf | medication #3 | gemma.name: 'Binge lotion' -> 'binge'
-no_pre/easy/066.pdf | medication #3 | gemma.form: None -> 'lotion'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemini.name: 'Diclopro' -> 'dicloprio'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemini.frequency: '1 x 2 x 3' -> '2'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemini.duration: None -> '3'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemma.name: 'Diclopro' -> 'dicloprio'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemma.dose: None -> '1'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemma.frequency: '1 X 2 X 3' -> '2'
-no_pre/easy/092_diag_proc.pdf | medication #0 | gemma.duration: None -> '3'
-no_pre/easy/092_diag_proc.pdf | medication #1 | gemini.name: 'Gembest Gel' -> 'gembest'
-no_pre/easy/092_diag_proc.pdf | medication #1 | gemini.frequency: 'دهان يومياً' -> 'دهان يوميا'
-no_pre/easy/092_diag_proc.pdf | medication #1 | gemini.form: None -> 'gel'
-no_pre/easy/092_diag_proc.pdf | medication #1 | gemma.name: 'Guenbest Gel' -> 'guenbest'
-no_pre/easy/092_diag_proc.pdf | medication #1 | gemma.form: None -> 'gel'
-no_pre/easy/106_diag_proc.pdf | medication #0 | gemini.strength: '20/10 mg' -> '20 10 mg'
-no_pre/easy/106_diag_proc.pdf | medication #0 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/106_diag_proc.pdf | medication #0 | gemini.instructions: 'قرص مساء يومياً لمدة شهر' -> 'قرص مساء يوميا لمدة شهر'
-no_pre/easy/106_diag_proc.pdf | medication #0 | gemma.strength: '20/10mg' -> '20 10mg'
-no_pre/easy/133.jpeg | medication #0 | gemini.name: 'Sperma plus TE' -> 'sperma plus'
-no_pre/easy/133.jpeg | medication #0 | gemini.instructions: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-no_pre/easy/133.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/133.jpeg | medication #1 | gemini.instructions: 'كيس على 1/2 كوب ماء على الريق يومياً' -> 'كيس علي 1 2 كوب ماء علي الريق يوميا'
-no_pre/easy/133.jpeg | medication #1 | gemma.name: 'Morcan Schust' -> 'morcan schyst'
-no_pre/easy/133.jpeg | medication #1 | gemma.instructions: 'كيس على ٣ كوبيات ماء على الريق يوميا' -> 'كيس علي 3 كوبيات ماء علي الريق يوميا'
-no_pre/easy/134.jpeg | medication #0 | gemini.name: 'Silo Nekena k.' -> 'silo nekena k'
-no_pre/easy/134.jpeg | medication #0 | gemma.name: 'Silo Nekenz k.' -> 'silo nekenz k'
-no_pre/easy/134.jpeg | medication #3 | gemini.frequency: 'قرص على الريق' -> 'قرص علي الريق'
-no_pre/easy/134.jpeg | medication #5 | gemma.name: 'Methyl Tecma' -> 'methyl techna'
-no_pre/easy/134.jpeg | medication #6 | gemini.strength: '20/10' -> '20 10'
-no_pre/easy/134.jpeg | medication #6 | gemma.name: 'Serovit' -> 'serotvit'
-no_pre/easy/134.jpeg | medication #6 | gemma.strength: '20/10' -> '20 10'
-no_pre/easy/152_diag.jpeg | medication #2 | gemini.name: 'Vonospir 20' -> 'vonospir'
-no_pre/easy/171_diag.jpeg | medication #0 | gemini.instructions: 'مع تقليل قرص كل اسبوع إلى حتى يوقف' -> 'مع تقليل قرص كل اسبوع الي حتي يوقف'
-no_pre/easy/171_diag.jpeg | medication #1 | gemini.name: 'Epicoped' -> 'epicopred'
-no_pre/easy/171_diag.jpeg | medication #2 | gemma.name: 'Cerebrolysin Sl' -> 'cerebrolysin'
-no_pre/easy/171_diag.jpeg | medication #4 | gemini.name: 'Repairnerve' -> 'repainerve'
-no_pre/easy/171_diag.jpeg | medication #4 | gemma.name: 'Repairnerve' -> 'repainerve'
-no_pre/easy/171_diag.jpeg | medication #5 | gemini.name: 'Axonglin' -> 'axonylin'
-no_pre/easy/171_diag.jpeg | medication #5 | gemma.name: 'Axongylin' -> 'axonylin'
-no_pre/easy/171_diag.jpeg | medication #7 | gemini.strength: '50/20' -> '50 20'
-no_pre/easy/171_diag.jpeg | medication #7 | gemma.name: 'Lasilactone 50/20' -> 'lasilactone 50 20'
-no_pre/easy/171_diag.jpeg | medication #7 | gemma.strength: '50/20' -> '50 20'
-no_pre/easy/171_diag.jpeg | medication #8 | gemini.name: 'Sustane gel' -> 'sustane'
-no_pre/easy/171_diag.jpeg | medication #8 | gemini.form: None -> 'gel'
-no_pre/easy/171_diag.jpeg | medication #8 | gemini.instructions: 'دهان للعين مساءً' -> 'دهان للعين مساء'
-no_pre/easy/171_diag.jpeg | medication #8 | gemma.name: 'Sustaw gel' -> 'sustaw'
-no_pre/easy/171_diag.jpeg | medication #8 | gemma.form: None -> 'gel'
-no_pre/easy/173_diag.jpeg | medication #0 | gemini.instructions: 'قرص قبل الإفطار' -> 'قرص قبل الافطار'
-no_pre/easy/173_diag.jpeg | medication #0 | gemma.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-no_pre/easy/173_diag.jpeg | medication #1 | gemini.name: 'Gliptus - Plus' -> 'gliptus plus'
-no_pre/easy/173_diag.jpeg | medication #1 | gemini.strength: '50 / 1000' -> '50 1000'
-no_pre/easy/173_diag.jpeg | medication #1 | gemini.instructions: 'بعد الأكل' -> 'بعد الاكل'
-no_pre/easy/173_diag.jpeg | medication #1 | gemma.name: 'Gliptus - Plus' -> 'gliptus plus'
-no_pre/easy/173_diag.jpeg | medication #1 | gemma.instructions: 'بعد الأكل' -> 'بعد الاكل'
-no_pre/easy/173_diag.jpeg | medication #2 | gemini.strength: '10 / 10' -> '10 10'
-no_pre/easy/173_diag.jpeg | medication #3 | gemma.name: 'Thioacid Comp' -> 'thiotacid comp'
-no_pre/easy/199.jpeg | medication #1 | gemma.name: 'phudue syr' -> 'phudue'
-no_pre/easy/199.jpeg | medication #1 | gemma.form: None -> 'syr'
-no_pre/easy/199.jpeg | medication #2 | gemma.name: 'Mucopell syr' -> 'mucopell'
-no_pre/easy/199.jpeg | medication #2 | gemma.form: None -> 'syr'
-no_pre/easy/199.jpeg | medication #4 | gemini.name: 'Bronchovaxom' -> 'broncho vaxom'
-no_pre/easy/207_diag.jpeg | medication #1 | gemini.name: 'Acti col c tab' -> 'acti colla c'
-no_pre/easy/207_diag.jpeg | medication #1 | gemini.form: None -> 'tab'
-no_pre/easy/207_diag.jpeg | medication #2 | gemini.name: 'Dextaglobe Amp' -> 'dexaglobe'
-no_pre/easy/207_diag.jpeg | medication #2 | gemini.form: None -> 'amp'
-no_pre/easy/207_diag.jpeg | medication #2 | gemini.instructions: 'ع / الأسبوع' -> 'ع الاسبوع'
-no_pre/easy/207_diag.jpeg | medication #3 | gemma.name: 'Kanbalta' -> 'karbalta'
-no_pre/easy/207_diag.jpeg | medication #4 | gemma.name: 'Febunic' -> 'feburic'
-no_pre/easy/214_proc.pdf | medication #0 | gemini.name: 'omenic scan' -> 'omenic scas'
-no_pre/easy/214_proc.pdf | medication #0 | gemini.strength: '0.4' -> '0 4'
-no_pre/easy/214_proc.pdf | medication #0 | gemma.name: 'omenic sarse' -> 'omenic scas'
-no_pre/easy/214_proc.pdf | medication #1 | gemini.name: 'Na Hco3 cap' -> 'na hco3'
-no_pre/easy/214_proc.pdf | medication #1 | gemini.form: None -> 'cap'
-no_pre/easy/214_proc.pdf | medication #1 | gemma.name: 'Na Hcos cap' -> 'na hcos'
-no_pre/easy/214_proc.pdf | medication #1 | gemma.form: None -> 'cap'
-no_pre/easy/214_proc.pdf | medication #4 | gemini.name: 'Dapagliyf' -> 'dapaglif'
-no_pre/easy/214_proc.pdf | medication #5 | gemini.instructions: 'لو كان BP > 140/90' -> 'لو كان bp 140 90'
-no_pre/easy/214_proc.pdf | medication #5 | gemma.name: 'Norvasac' -> 'norvasc'
-no_pre/easy/229_diag.jpeg | medication #0 | gemma.name: 'Tobalanza tn' -> 'tobalanza'
-no_pre/easy/229_diag.jpeg | medication #0 | gemma.instructions: 'قرص 8-12' -> 'قرص 8 12'
-no_pre/easy/229_diag.jpeg | medication #2 | gemini.name: 'Lignocain + Faktu cr' -> 'lignocain faktu'
-no_pre/easy/229_diag.jpeg | medication #2 | gemini.frequency: 'دهان موضعى بعد' -> 'دهان موضعي بعد'
-no_pre/easy/229_diag.jpeg | medication #2 | gemini.form: None -> 'cr'
-no_pre/easy/229_diag.jpeg | medication #2 | gemma.name: 'Lignocan + Faktun cr' -> 'lignocan faktun'
-no_pre/easy/229_diag.jpeg | medication #2 | gemma.form: None -> 'cr'
-no_pre/easy/229_diag.jpeg | medication #2 | gemma.instructions: '(دهان صفى)' -> 'دهان صفي'
-no_pre/easy/254_diag_proc.pdf | medication #0 | gemini.name: 'Joint guard ultra' -> 'jointguard ultra'
-no_pre/easy/254_diag_proc.pdf | medication #0 | gemini.frequency: '١ × ٢' -> '1 2'
-no_pre/easy/254_diag_proc.pdf | medication #0 | gemma.name: 'Joint guard ultra Cap' -> 'jointguard ultra'
-no_pre/easy/254_diag_proc.pdf | medication #0 | gemma.form: None -> 'cap'
-no_pre/easy/254_diag_proc.pdf | medication #1 | gemini.name: 'Cal-d-max' -> 'cal d max'
-no_pre/easy/254_diag_proc.pdf | medication #1 | gemini.frequency: '١ × ١' -> '1 1'
-no_pre/easy/254_diag_proc.pdf | medication #2 | gemini.frequency: '١ × ٢' -> '1 2'
-no_pre/easy/254_diag_proc.pdf | medication #2 | gemma.name: 'Relaxylid 9-7 mg' -> 'relaxylid 9'
-no_pre/easy/254_diag_proc.pdf | medication #2 | gemma.strength: '9-7 mg' -> '9 7 mg'
-no_pre/easy/255_diag.jpeg | medication #0 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/255_diag.jpeg | medication #0 | gemini.instructions: 'كبسولة يومياً علاج مستمر' -> 'كبسولة يوميا علاج مستمر'
-no_pre/easy/255_diag.jpeg | medication #0 | gemma.name: 'Flopadex Cap.' -> 'flopadex'
-no_pre/easy/255_diag.jpeg | medication #0 | gemma.form: None -> 'cap'
-no_pre/easy/255_diag.jpeg | medication #1 | gemini.name: 'Xyrtkux Tb (Decoxibright)' -> 'xyrtkux tb decoxibright'
-no_pre/easy/255_diag.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/255_diag.jpeg | medication #1 | gemini.duration: 'أسبوع' -> 'اسبوع'
-no_pre/easy/255_diag.jpeg | medication #1 | gemini.instructions: 'قرص يومياً لمدة أسبوع' -> 'قرص يوميا لمدة اسبوع'
-no_pre/easy/255_diag.jpeg | medication #1 | gemma.name: 'Xyrkux Th (Decoxibright)' -> 'xyrkux th decoxibright'
-no_pre/easy/255_diag.jpeg | medication #2 | gemini.name: 'Modern Saw Palmetto cap' -> 'modern saw palmetto'
-no_pre/easy/255_diag.jpeg | medication #2 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/255_diag.jpeg | medication #2 | gemini.form: None -> 'cap'
-no_pre/easy/255_diag.jpeg | medication #2 | gemini.instructions: 'كبسولة عشاء يومياً لمدة مستمر' -> 'كبسولة عشاء يوميا لمدة مستمر'
-no_pre/easy/255_diag.jpeg | medication #2 | gemma.name: 'Modern Saw Palmetto cap' -> 'modern saw palmetto'
-no_pre/easy/255_diag.jpeg | medication #2 | gemma.form: None -> 'cap'
-no_pre/easy/260_proc.pdf | medication #1 | gemini.name: 'Dolipran tab' -> 'doliprane'
-no_pre/easy/260_proc.pdf | medication #1 | gemini.form: None -> 'tab'
-no_pre/easy/260_proc.pdf | medication #2 | gemini.name: 'Mebeverin tab' -> 'mebeverin'
-no_pre/easy/260_proc.pdf | medication #2 | gemini.form: None -> 'tab'
-no_pre/easy/IMG-20190401-WA0004_diag.jpg | medication #0 | gemini.strength: '0.4' -> '0 4'
-no_pre/easy/IMG-20190401-WA0004_diag.jpg | medication #0 | gemma.strength: '0.4' -> '0 4'
-no_pre/easy/IMG-20190401-WA0004_diag.jpg | medication #0 | gemma.instructions: 'قرص واحد قبل النوم ( علاج شهرين )' -> 'قرص واحد قبل النوم علاج شهرين'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #0 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #0 | gemini.instructions: 'قرص قبل الإفطار والغداء' -> 'قرص قبل الافطار والغداء'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #0 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #1 | gemini.instructions: 'قرص قبل الإفطار' -> 'قرص قبل الافطار'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #2 | gemini.instructions: 'قرص قبل النوم مساءً' -> 'قرص قبل النوم مساء'
-no_pre/easy/IMG-20190408-WA0038.jpg | medication #2 | gemma.name: 'Cordura' -> 'cardura'
-no_pre/easy/IMG-20190410-WA0018.jpg | medication #0 | gemini.name: 'X-geva' -> 'x geva'
-no_pre/easy/IMG-20190410-WA0018.jpg | medication #0 | gemini.frequency: 'كل ٤ أسابيع' -> 'كل 4 اسابيع'
-no_pre/easy/IMG-20190410-WA0018.jpg | medication #0 | gemini.instructions: 'تحت الجلد فى البطن' -> 'تحت الجلد في البطن'
-no_pre/easy/IMG-20190410-WA0018.jpg | medication #0 | gemma.name: 'X-geva' -> 'x geva'
-no_pre/easy/IMG-20190410-WA0018.jpg | medication #0 | gemma.frequency: 'كل ٣ أسابيع' -> 'كل 3 اسابيع'
-no_pre/easy/IMG-20190414-WA0007_diag.jpg | medication #0 | gemini.strength: '0.5' -> '0 5'
-no_pre/easy/IMG-20190414-WA0007_diag.jpg | medication #0 | gemma.strength: '0.5' -> '0 5'
-no_pre/easy/IMG-20190414-WA0007_diag.jpg | medication #6 | gemma.instructions: 'على الريق' -> 'علي الريق'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemini.name: 'Calamyl lotion' -> 'calamyl'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemini.frequency: '٢ مرات يومياً' -> '2 مرات يوميا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemini.form: None -> 'lotion'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemini.instructions: 'دهان موضعى' -> 'دهان موضعي'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemma.name: 'Calamyl lotion' -> 'calamyl'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemma.form: None -> 'lotion'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #0 | gemma.instructions: 'دهانه موضعى' -> 'دهانه موضعي'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemini.name: 'Dermocalm lotion' -> 'dermocalm'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemini.form: None -> 'lotion'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemma.name: 'Dermocalm lotion' -> 'dermocalm'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemma.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #1 | gemma.form: None -> 'lotion'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemini.name: 'Betnovate cream' -> 'betnovate'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemini.form: None -> 'cream'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemini.instructions: 'دهان صباحاً ومساءاً' -> 'دهان صباحا ومساءا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemma.name: 'Betnovate Cream' -> 'betnovate'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemma.frequency: 'صباحاً ومساءً' -> 'صباحا ومساء'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #2 | gemma.form: None -> 'cream'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemini.name: 'Claritine tab.' -> 'claritine'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemini.form: None -> 'tab'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemini.instructions: 'صباحاً' -> 'صباحا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemma.name: 'Claritine tab.' -> 'claritine'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemma.frequency: 'صباحاً' -> 'صباحا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #3 | gemma.form: None -> 'tab'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemini.name: 'Telfast tab.' -> 'telfast'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemini.form: None -> 'tab'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemini.instructions: 'مساءاً' -> 'مساءا'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemma.name: 'Telfast tab.' -> 'telfast'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemma.frequency: 'مساءً' -> 'مساء'
-no_pre/easy/IMG-20190414-WA0021.jpg | medication #4 | gemma.form: None -> 'tab'
-no_pre/easy/IMG-20190415-WA0024.jpg | medication #0 | gemini.name: 'Augment' -> 'augmentin'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #1 | gemma.name: 'Calcitrone' -> 'calcitron'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #2 | gemini.name: 'Bone-one tab' -> 'bon one'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #2 | gemini.form: None -> 'tab'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #2 | gemma.name: 'Bone -one tab' -> 'bon one'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #2 | gemma.form: None -> 'tab'
-no_pre/easy/IMG-20190417-WA0007_diag.jpg | medication #3 | gemma.name: 'Atacand 16 plus' -> 'atacand plus'
-no_pre/easy/IMG-20190504-WA0022.jpg | medication #2 | gemma.instructions: 'بخة بالأنف رشه' -> 'بخة بالانف رشه'
-no_pre/easy/IMG-20190505-WA0021_diag.jpg | medication #2 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/IMG-20190505-WA0021_diag.jpg | medication #2 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/IMG-20190510-WA0010.jpg | medication #0 | gemini.strength: '160/10/12.5' -> '160 10 12 5'
-no_pre/easy/IMG-20190510-WA0010.jpg | medication #0 | gemma.name: 'Exforgy' -> 'exfory'
-no_pre/easy/IMG-20190510-WA0010.jpg | medication #0 | gemma.strength: '160/10/12.5' -> '160 10 12 5'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #0 | gemini.strength: '2.5' -> '2 5'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #0 | gemma.strength: '2.5' -> '2 5'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #3 | gemini.instructions: 'قرص قبل الإفطار بنصف ساعة' -> 'قرص قبل الافطار بنصف ساعة'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #4 | gemini.name: 'Pebonin forte' -> 'tebonina forte'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #4 | gemma.name: 'Rebonin forte' -> 'tebonina forte'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #5 | gemini.name: 'Co-Q10' -> 'co q10'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #6 | gemini.strength: '1.5' -> '1 5'
-no_pre/easy/IMG-20190529-WA0053.jpg | medication #6 | gemini.instructions: 'قرص عند الغداء / مساء' -> 'قرص عند الغداء مساء'
-no_pre/easy/PHOTO-2020-05-16-12-54-31.jpg | medication #0 | gemini.frequency: '١ × ٢' -> '1 2'
-no_pre/easy/PHOTO-2020-05-16-12-54-31.jpg | medication #0 | gemma.name: 'Recodibright' -> 'recoxibright'
-no_pre/easy/PHOTO-2020-09-20-15-37-20 (1)_diag.jpg | medication #0 | gemini.strength: '200,000 IU' -> '200 000 iu'
-no_pre/easy/PHOTO-2020-09-20-15-37-20 (1)_diag.jpg | medication #0 | gemini.frequency: 'اسبوعياً' -> 'اسبوعيا'
-no_pre/easy/PHOTO-2020-09-20-15-37-20 (1)_diag.jpg | medication #0 | gemma.strength: '200,000 IU' -> '200 000 iu'
-no_pre/easy/PHOTO-2020-09-20-15-37-20 (1)_diag.jpg | medication #1 | gemini.frequency: '3 مرات يومياً' -> '3 مرات يوميا'
-no_pre/easy/PHOTO-2020-09-20-15-37-20 (1)_diag.jpg | medication #2 | gemma.name: 'Onealpha' -> 'one alpha'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #0 | gemini.frequency: 'يومياً أثناء الغداء' -> 'يوميا اثناء الغداء'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #0 | gemini.instructions: 'كبسولة واحدة يومياً أثناء الغداء لمدة شهر' -> 'كبسولة واحدة يوميا اثناء الغداء لمدة شهر'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #1 | gemini.frequency: 'على 1/2 كوب ماء بعد الصباح والمساء' -> 'علي 1 2 كوب ماء بعد الصباح والمساء'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #1 | gemini.instructions: 'كيس على 1/2 كوب ماء بعد الصباح والمساء بعد الغداء لمدة شهر' -> 'كيس علي 1 2 كوب ماء بعد الصباح والمساء بعد الغداء لمدة شهر'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #2 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #2 | gemini.instructions: 'دهان مرتين يومياً مساج' -> 'دهان مرتين يوميا مساج'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #2 | gemma.name: 'Cosmoline Cr' -> 'cosmoline'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #2 | gemma.form: None -> 'cr'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemini.name: 'Reparil gel' -> 'reparil'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemini.frequency: 'مرتين يومياً' -> 'مرتين يوميا'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemini.form: None -> 'gel'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemini.instructions: 'دهان مرتين يومياً مساج' -> 'دهان مرتين يوميا مساج'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemma.name: 'Reparil gel' -> 'reparil'
-no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | medication #3 | gemma.form: None -> 'gel'
-no_pre/easy/PHOTO-2023-06-08-19-20-48.jpg | medication #0 | gemini.instructions: 'لمدة ٣-٥ ايام' -> 'لمدة 3 5 ايام'
-no_pre/easy/PHOTO-2023-06-08-19-20-48.jpg | medication #0 | gemma.instructions: 'لمدة ١٠ أيام' -> 'لمدة 10 ايام'
-no_pre/easy/PHOTO-2023-06-19-20-39-02.jpg | medication #0 | gemini.instructions: '+ 250 رينجر' -> '250 رينجر'
-no_pre/easy/PHOTO-2023-06-19-20-39-02.jpg | medication #1 | gemini.instructions: '+ جلوكوز 250 رينجر' -> 'جلوكوز 250 رينجر'
-no_pre/easy/PHOTO-2023-06-19-20-39-02.jpg | medication #1 | gemma.name: 'Methylcobal' -> 'methycobal'
-no_pre/easy/PHOTO-2023-06-19-20-39-02.jpg | medication #2 | gemini.instructions: '+ 250 رينجر' -> '250 رينجر'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #0 | gemini.strength: '20/10' -> '20 10'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #0 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #0 | gemma.name: 'Chalevox plus' -> 'cholevox plus'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #0 | gemma.strength: '20/10' -> '20 10'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #1 | gemini.name: 'Sugarlop plus' -> 'sugarlo plus'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #1 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #1 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/PHOTO-2024-08-18-10-44-26.jpg | medication #2 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/Screenshot4_diag.png | medication #0 | gemma.name: 'Aericus tal.' -> 'aericus tal'
-no_pre/easy/Screenshot4_diag.png | medication #1 | gemini.name: 'Levocet' -> 'levcet'
-no_pre/easy/Screenshot4_diag.png | medication #1 | gemma.name: 'Levcet tal.' -> 'levcet ml'
-no_pre/easy/Screenshot4_diag.png | medication #2 | gemini.frequency: 'بعد الإفطار' -> 'بعد الافطار'
-no_pre/easy/Screenshot4_diag.png | medication #2 | gemini.instructions: 'ثم قرص بعد الإفطار اسبوعين' -> 'ثم قرص بعد الافطار اسبوعين'
-no_pre/easy/Screenshot4_diag.png | medication #2 | gemma.name: 'Epicopred susp.' -> 'epicopred'
-no_pre/easy/Screenshot4_diag.png | medication #2 | gemma.form: None -> 'susp'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #0 | gemini.name: 'Doliprane tab' -> 'doliprane'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #0 | gemini.frequency: '١ * ٣' -> '1 3'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #0 | gemini.form: None -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #0 | gemma.name: 'Doliprane tab' -> 'doliprane'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #0 | gemma.form: None -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #1 | gemini.name: 'Voltaren gel' -> 'voltaren'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #1 | gemini.frequency: '٢ * ٣' -> '2 3'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #1 | gemini.form: None -> 'gel'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #1 | gemma.name: 'Voltaren gel' -> 'voltaren'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #1 | gemma.form: None -> 'gel'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #2 | gemini.name: 'Alphintern tab' -> 'alphintern'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #2 | gemini.frequency: '١ * ٣' -> '1 3'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #2 | gemini.form: None -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #2 | gemma.name: 'Alphintern tabs' -> 'alphintern'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | medication #2 | gemma.form: None -> 'tabs'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #0 | gemini.instructions: 'tab.' -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #0 | gemma.instructions: 'tal.' -> 'tal'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #1 | gemini.name: 'Vitacid - c' -> 'vitacid c'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #1 | gemini.instructions: 'eff. tab.' -> 'eff tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #1 | gemma.name: 'Vitacid -c eff' -> 'vitacid c 12 eff'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #1 | gemma.instructions: 'tal.' -> 'tal'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #2 | gemini.instructions: 'tab.' -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #2 | gemma.instructions: 'tal.' -> 'tal'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #3 | gemini.instructions: 'tab. مساء' -> 'tab مساء'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #3 | gemma.instructions: 'tal.' -> 'tal'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #4 | gemini.instructions: 'tab قبل الأكل بـ 1/2 ساعة' -> 'tab قبل الاكل بـ 1 2 ساعة'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #4 | gemma.instructions: 'tal. قبل الاكل بساعة' -> 'tal قبل الاكل بساعة'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #5 | gemini.instructions: 'tab.' -> 'tab'
-no_pre/easy/WhatsApp Image 2026-08-31 at 9.54.49 AM (1)_diag.jpeg | medication #5 | gemma.instructions: 'tal.' -> 'tal'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #0 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #0 | gemini.instructions: 'على الريق' -> 'علي الريق'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #0 | gemma.name: 'Euthyrax' -> 'euthyrox'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #0 | gemma.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #0 | gemma.instructions: 'على الريق' -> 'علي الريق'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemini.strength: '2.5 mg' -> '2 5 mg'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemini.instructions: 'على الريق قبل الإفطار بنصف ساعة' -> 'علي الريق قبل الافطار بنصف ساعة'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemma.strength: '2.5' -> '2 5'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemma.frequency: 'يوماً' -> 'يوما'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #1 | gemma.instructions: 'قرص على الريق قبل الإفطار بساعتين' -> 'قرص علي الريق قبل الافطار بساعتين'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #2 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #2 | gemini.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #2 | gemma.frequency: 'يومياً' -> 'يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #2 | gemma.instructions: 'قبل الإفطار' -> 'قبل الافطار'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #3 | gemini.instructions: 'بعد الإفطار ٦ أيام في الأسبوع\nحبة يوم واحد كل أسبوع' -> 'بعد الافطار 6 ايام في الاسبوع حبة يوم واحد كل اسبوع'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #3 | gemma.frequency: '٦ أيام في الاسبوع' -> '6 ايام في الاسبوع'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #3 | gemma.instructions: 'بعد الإفطار' -> 'بعد الافطار'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #4 | gemini.instructions: 'بعد الإفطار وبعد الغداء\nحبة بعد الإفطار + ½ حبة بعد الغداء يومياً' -> 'بعد الافطار وبعد الغداء حبة بعد الافطار 1 2 حبة بعد الغداء يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #4 | gemma.name: 'Solupred S' -> 'solupred'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (4)_diag.jpeg | medication #4 | gemma.instructions: 'بعد الإفطار وبعد الغداء حبة اصبحين في يوم' -> 'بعد الافطار وبعد الغداء حبة اصبحين في يوم'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (6).jpeg | medication #0 | gemini.strength: '10,000' -> '10 000'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (6).jpeg | medication #0 | gemini.instructions: 'جرعة اسبوعياً' -> 'جرعة اسبوعيا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (6).jpeg | medication #0 | gemma.name: 'Vit. D' -> 'vit d'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (6).jpeg | medication #0 | gemma.strength: '10,000' -> '10 000'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.36 PM (6).jpeg | medication #3 | gemma.name: 'creston' -> 'crestor'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #0 | gemini.instructions: 'قرص قبل الإفطار' -> 'قرص قبل الافطار'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #1 | gemini.strength: '10/5' -> '10 5'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #1 | gemma.strength: '10/5' -> '10 5'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #1 | gemma.instructions: 'مرتين قبل (الـ)' -> 'مرتين قبل الـ'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #2 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #2 | gemini.instructions: 'قرص بعد الإفطار والعشاء' -> 'قرص بعد الافطار والعشاء'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #2 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #3 | gemma.name: 'Novocobol' -> 'novocobal'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #5 | gemini.instructions: 'قرص بعد الغداء يومياً' -> 'قرص بعد الغداء يوميا'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #6 | gemini.name: 'pepzole' -> 'pepzol'
-no_pre/easy/WhatsApp Image 2026-09-16 at 1.09.38 PM (1).jpeg | medication #6 | gemma.name: 'Pepzole' -> 'pepzol'
-no_pre/hard/040_diag.pdf | medication #0 | gemini.strength: '10,000 IU' -> '10 000 iu'
-no_pre/hard/040_diag.pdf | medication #0 | gemini.frequency: 'يومياً ماعدا الخميس والجمعة' -> 'passage يوميا ماعدا الخميس والجمعة'
-no_pre/hard/040_diag.pdf | medication #0 | gemini.instructions: 'قرص بعد الافطار يوميا ماعدا الخميس والجمعة / لمدة ٣ شهور' -> 'قرص بعد الافطار يوميا ماعدا الخميس والجمعة لمدة 3 شهور'
-no_pre/hard/040_diag.pdf | medication #0 | gemma.strength: '10,000 IU' -> '10 000 iu'
-no_pre/hard/040_diag.pdf | medication #0 | gemma.frequency: 'قرص واحد أسبوعيا' -> 'قرص واحد اسبوعيا'
-no_pre/hard/040_diag.pdf | medication #1 | gemini.name: 'Sidral active tab' -> 'sideral active'
-no_pre/hard/040_diag.pdf | medication #1 | gemini.form: None -> 'tab'
-no_pre/hard/040_diag.pdf | medication #1 | gemini.instructions: 'قرص بعد الغذاء بساعتين يوم بعد يوم / لمدة ٣ شهور' -> 'قرص بعد الغذاء بساعتين يوم بعد يوم لمدة 3 شهور'
-no_pre/hard/040_diag.pdf | medication #1 | gemma.name: 'Sideral active tab' -> 'sideral active'
-no_pre/hard/040_diag.pdf | medication #1 | gemma.form: None -> 'tab'
-no_pre/hard/279.jpeg | medication #0 | gemini.dose: '٢٠ وحدة قبل الغداء تحت الجلد / ١٥ وحدة قبل العشاء' -> '20 وحدة قبل الغداء تحت الجلد 15 وحدة قبل العشاء'
-no_pre/hard/279.jpeg | medication #2 | gemini.strength: '10/20' -> '10 20'
-no_pre/hard/279.jpeg | medication #2 | gemma.name: 'Atorzet' -> 'atozet'
-no_pre/hard/279.jpeg | medication #2 | gemma.strength: '10/20' -> '10 20'
-no_pre/hard/279.jpeg | medication #5 | gemini.dose: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #0 | gemini.name: 'Nevilot plus' -> 'nevilob plus 5'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #0 | gemini.strength: '5/12.5' -> '5 12 5'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #0 | gemini.frequency: 'الساعة ٨ صباحاً' -> 'الساعة 8 صباحا'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #0 | gemma.strength: '5/12.5' -> '5 12 5'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #1 | gemini.strength: '160/5/12.5' -> '160 5 12 5'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #1 | gemini.frequency: 'الساعة ٨ مساءً' -> 'الساعة 8 مساء'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #1 | gemma.strength: '160/5/12.5' -> '160 5 12 5'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #2 | gemini.frequency: 'مساءً' -> 'مساء'
-no_pre/hard/IMG-20190409-WA0052_diag_proc.jpg | medication #3 | gemini.frequency: 'مساءً' -> 'مساء'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #0 | gemini.name: 'Renagel tab' -> 'renagel'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #0 | gemini.frequency: '٣ مرات يومياً' -> '3 مرات يوميا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #0 | gemini.form: None -> 'tab'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #0 | gemma.name: 'Renagel tab' -> 'renagel'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #0 | gemma.form: None -> 'tab'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #2 | gemini.frequency: 'مره إسبوعياً' -> 'مره اسبوعيا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #2 | gemma.frequency: 'مرة أسبوعيا' -> 'مرة اسبوعيا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemini.name: 'ferrosac ampoule' -> 'ferosac'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemini.frequency: 'مره إسبوعياً' -> 'مره اسبوعيا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemini.form: None -> 'ampoule'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemini.duration: 'لمده ١٠ أسابيع' -> 'لمده 10 اسابيع'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemma.frequency: 'مرة أسبوعيا' -> 'مرة اسبوعيا'
-no_pre/hard/IMG-20190422-WA0080.jpg | medication #3 | gemma.duration: '١٠ أسابيع' -> '10 اسابيع'
-no_pre/hard/IMG-20190424-WA0008_diag.jpg | medication #1 | gemini.strength: '50/1000' -> '50 1000'
-no_pre/hard/IMG-20190424-WA0008_diag.jpg | medication #1 | gemma.strength: '50/1000' -> '50 1000'
-no_pre/hard/IMG-20190424-WA0008_diag.jpg | medication #3 | gemini.strength: '10/20' -> '10 20'
-no_pre/hard/IMG-20190424-WA0008_diag.jpg | medication #3 | gemma.strength: '10/20' -> '10 20'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #0 | gemini.strength: '5/1000' -> '5 1000'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #5 | gemini.dose: '٤٠ ع + ٤٠ ع' -> '40 ع 40 ع'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #5 | gemma.name: 'Mixtard Insul' -> 'mixtard insul 30'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #6 | gemini.name: 'Calmag' -> 'cal mag'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #6 | gemma.name: 'Calmag' -> 'cal mag'
-no_pre/hard/IMG-20190505-WA0016.jpg | medication #9 | gemini.name: 'Cidophag R' -> 'cidophagy r'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #0 | gemini.instructions: 'قرص على الريق' -> 'قرص علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #0 | gemma.name: 'Zesteretic' -> 'zestoretic'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #0 | gemma.instructions: 'قرص على الريق' -> 'قرص علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #1 | gemini.strength: '100 / 50' -> '100 50'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #1 | gemini.instructions: 'قرص مقسم على الريق' -> 'قرص مقسم علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #1 | gemma.instructions: 'قرص مساء على الريق' -> 'قرص مساء علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #2 | gemini.instructions: '١/٢ ساعه على الريق' -> '1 2 ساعه علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #2 | gemma.instructions: 'قرص على الريق' -> 'قرص علي الريق'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #3 | gemini.name: 'Atoresa' -> 'atoresaf'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #3 | gemini.strength: '20 / 10' -> '20 10'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #3 | gemma.name: 'Atorestat' -> 'atorstat'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #4 | gemma.instructions: 'صباحا ds.' -> 'صباحا ds'
-no_pre/hard/IMG-20190514-WA0073.jpg | medication #5 | gemini.name: 'Vastaril MR' -> 'vastarel mr'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #1 | gemini.name: 'One-alpha' -> 'one alpha'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #1 | gemma.name: 'One alph' -> 'one alpha'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #2 | gemini.frequency: '٣ مرات اسبوعياً' -> '3 مرات اسبوعيا'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #3 | gemini.frequency: 'اسبوعياً' -> 'اسبوعيا'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #4 | gemma.name: 'Hemojet' -> 'haemojet'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #5 | gemini.name: 'Hemojet' -> 'haemojet'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #5 | gemini.instructions: 'عضل / اجمالى ١٠ حقن' -> 'عضل اجمالي 10 حقن'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #6 | gemini.frequency: '١ في ٢٠ ظهرًا' -> '1 في 20 ظهرا'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #7 | gemini.frequency: 'قرص صباحاً' -> 'قرص صباحا'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #8 | gemma.name: 'Omnie 0.1%' -> 'omnie 0 1'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #8 | gemma.strength: '0.1%' -> '0 1'
-no_pre/hard/IMG-20190515-WA0022.jpg | medication #9 | gemini.strength: '0.4' -> '0 4'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #0 | gemini.strength: '5/5' -> '5 5'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #0 | gemma.strength: '5/5' -> '5 5'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #2 | gemini.name: 'urico drops' -> 'urico'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #2 | gemini.form: None -> 'drops'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #2 | gemma.name: 'urico drop' -> 'urico'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #2 | gemma.form: None -> 'drop'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #4 | gemini.name: 'thio tacid cap' -> 'thiotacid'
-no_pre/hard/IMG-20190520-WA0001.jpg | medication #4 | gemini.form: None -> 'cap'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #0 | gemma.name: 'Microser' -> 'microserc'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #0 | gemma.instructions: 'ص. مساء و م' -> 'ص مساء و م'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #1 | gemini.name: 'valpo-east' -> 'valpo east'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #1 | gemini.dose: '½ ق' -> '1 2 ق'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #1 | gemma.name: 'Valpo-east' -> 'valpo east'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #4 | gemini.name: 'Olfen + Reparil gel' -> 'olfen reparil'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #4 | gemini.form: None -> 'gel'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #4 | gemma.name: 'olfen + Reparil gel' -> 'olfen reparil'
-no_pre/hard/PHOTO-2020-07-23-19-43-56_proc.jpg | medication #4 | gemma.form: None -> 'gel'
-no_pre/hard/PHOTO-2020-08-27-23-12-18.jpg | medication #0 | gemini.frequency: '١/٢ حقنة كل ١٢ ساعة' -> '1 2 حقنة كل 12 ساعة'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #0 | gemini.dose: '1 أمبول' -> '1 امبول'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #0 | gemini.duration: 'أسبوعين' -> 'اسبوعين'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #1 | gemini.name: 'nexium sachets' -> 'nexium'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #1 | gemini.form: None -> 'sachets'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #1 | gemini.duration: 'لمدة أسبوعين' -> 'لمدة اسبوعين'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #1 | gemma.name: 'nexium sachets' -> 'nexium'
-no_pre/hard/PHOTO-2023-07-27-11-39-29_diag_proc.jpg | medication #1 | gemma.form: None -> 'sachets'
-rotation&cropping/easy/029_diag.jpeg | medication #2 | gemma.name: 'Cymbater' -> 'cymbatex'
-rotation&cropping/easy/166_diag.jpeg | medication #0 | gemini.dose: '2.5 mg/day' -> '2 5 mg day'
-rotation&cropping/easy/166_diag.jpeg | medication #0 | gemini.instructions: '( ٨ قلم شهريا )' -> '8 قلم شهريا'
-rotation&cropping/easy/166_diag.jpeg | medication #0 | gemma.name: 'nodi lrqpin, Flexpro' -> 'norditropin flexpro'
-rotation&cropping/easy/166_diag.jpeg | medication #0 | gemma.instructions: '(٨ قيم - خبر با)' -> '8 قيم خبر با'
-rotation&cropping/easy/166_diag.jpeg | medication #2 | gemini.name: 'calmag' -> 'cal mag'
-rotation&cropping/easy/166_diag.jpeg | medication #2 | gemma.name: 'calmag' -> 'cal mag'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #0 | gemini.duration: '٥ أيام' -> '5 ايام'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #0 | gemini.instructions: '(2X1X5)' -> '2x1x5'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #0 | gemma.instructions: 'حقنة عضل / ١٢ ساعة لمدة ٥ أيام' -> 'حقنة عضل 12 ساعة لمدة 5 ايام'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #1 | gemini.duration: 'أسبوع' -> 'اسبوع'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #1 | gemini.instructions: '(2X1X7) بعد الفطر صباحا' -> '2x1x7 بعد الفطر صباحا'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #1 | gemma.instructions: 'بعد الحقنة مرة صباح كل / ١٢ ساعة لمدة أسبوع' -> 'بعد الحقنة مرة صباح كل 12 ساعة لمدة اسبوع'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #2 | gemini.instructions: 'شفط (2X1X30)' -> 'شفط 2x1x30'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #2 | gemma.instructions: 'كبسولة شفط / ١٢ ساعة لمدة شهر' -> 'كبسولة شفط 12 ساعة لمدة شهر'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #3 | gemini.name: 'Singular' -> 'singulair'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #3 | gemini.instructions: '(1X1X30)' -> '1x1x30'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #3 | gemma.instructions: 'قرص مساء / ١٢ ساعة لمدة شهر' -> 'قرص مساء 12 ساعة لمدة شهر'
-rotation&cropping/easy/PHOTO-2026-09-01-14-45-29 (5)_proc.jpg | medication #4 | gemini.instructions: '(1X1X30)' -> '1x1x30'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #0 | gemini.name: 'Azelast plus n. spy' -> 'azelast plus n spy'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #0 | gemma.name: 'Azelast plus n. spy' -> 'azelast plus n spy'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #0 | gemma.instructions: 'بخاخة أنفية' -> 'بخاخة انفية'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #1 | gemma.frequency: '١ مرة يومياً' -> '1 مرة يوميا'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #1 | gemma.duration: '١٠ أيام' -> '10 ايام'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #2 | gemini.name: 'Muco SR cp.' -> 'muco sr cp'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #2 | gemma.frequency: '١ مرة يومياً' -> '1 مرة يوميا'
-rotation&cropping/easy/WhatsApp Image 2026-08-31 at 10.59.35 AM_diag.jpeg | medication #2 | gemma.duration: '١٠ أيام' -> '10 ايام'
-rotation&cropping/easy/scan0007_diag.JPG | medication #0 | gemini.name: 'Alphacalcidol drop' -> 'alphacalcidol'
-rotation&cropping/easy/scan0007_diag.JPG | medication #0 | gemini.frequency: 'يومياً' -> 'يوميا'
-rotation&cropping/easy/scan0007_diag.JPG | medication #0 | gemini.form: None -> 'drop'
-rotation&cropping/easy/scan0007_diag.JPG | medication #0 | gemma.name: 'Alpha Calcidol drop' -> 'alpha calcidol'
-rotation&cropping/easy/scan0007_diag.JPG | medication #0 | gemma.form: None -> 'drop'
-rotation&cropping/easy/scan0007_diag.JPG | medication #1 | gemini.name: 'Livabion Amp' -> 'livabion'
-rotation&cropping/easy/scan0007_diag.JPG | medication #1 | gemini.form: None -> 'amp'
-rotation&cropping/easy/scan0007_diag.JPG | medication #1 | gemma.name: 'Livabron Syr' -> 'livabion'
-rotation&cropping/easy/scan0007_diag.JPG | medication #1 | gemma.form: None -> 'syr'
-rotation&cropping/easy/scan0007_diag.JPG | medication #2 | gemini.name: 'Hi-Cal Syr' -> 'hi cal'
-rotation&cropping/easy/scan0007_diag.JPG | medication #2 | gemini.form: None -> 'syr'
-rotation&cropping/easy/scan0007_diag.JPG | medication #2 | gemma.name: 'HiCal Syr' -> 'hi cal'
-rotation&cropping/easy/scan0007_diag.JPG | medication #2 | gemma.form: None -> 'syr'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #0 | gemma.name: 'Rytmonor' -> 'rytmonorm'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #1 | gemini.name: 'Control-oc' -> 'control oc'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #2 | gemini.dose: 'حقنة (ابرة)' -> 'حقنة ابرة'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #2 | gemma.name: 'Levanox' -> 'levanx'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #3 | gemini.dose: '1/2 ق' -> '1 2 ق'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #3 | gemma.name: 'Altiagem' -> 'altiazem'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #6 | gemini.strength: '2.5' -> '2 5'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #6 | gemma.name: 'Nitromach' -> 'nitromack'
-rotation&cropping/hard/IMG-20190430-WA0019.jpg | medication #7 | gemma.name: 'Rowach' -> 'rowachol'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #0 | gemma.name: 'Rytmonor' -> 'rytmonorm'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #1 | gemini.name: 'Control-oc' -> 'control oc'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #2 | gemini.dose: 'حقنة (ابرة)' -> 'حقنة ابرة'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #2 | gemma.name: 'Levanox' -> 'levanx'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #3 | gemini.dose: '1/2 ق' -> '1 2 ق'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #3 | gemma.name: 'Altiagem' -> 'altiazem'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #6 | gemini.strength: '2.5' -> '2 5'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #6 | gemma.name: 'Nitromach' -> 'nitromack'
-rotation&cropping/hard/IMG-20190530-WA0000.jpg | medication #7 | gemma.name: 'Rowach' -> 'rowachol'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #0 | gemini.instructions: 'حقنة عضل / ١٢ ساعة لمدة يومين' -> 'حقنة عضل 12 ساعة لمدة يومين'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #0 | gemma.instructions: 'حقنة عضل / ١٢ ساعة لمدة يومين' -> 'حقنة عضل 12 ساعة لمدة يومين'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemini.instructions: 'قرص يومياً لمدة شهر' -> 'قرص يوميا لمدة شهر'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #1 | gemma.frequency: 'قرص يومياً' -> 'قرص يوميا'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #2 | gemini.name: 'Nibiotic' -> 'unibiotic'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemini.instructions: 'كبسولة شفط / ١٢ ساعة عند اللزوم' -> 'كبسولة شفط 12 ساعة عند اللزوم'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemma.name: 'Miflohide' -> 'miflonide'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #3 | gemma.instructions: 'كبسولة شرب / ١٢ ساعة عند اللزوم' -> 'كبسولة شرب 12 ساعة عند اللزوم'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.name: 'oplax شراب' -> 'oplax'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.frequency: 'يومياً' -> 'يوميا'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.form: None -> 'شراب'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemini.instructions: 'جرعتين يومياً عند اللزوم' -> 'جرعتين يوميا عند اللزوم'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemma.name: 'Oplax شراب' -> 'oplax'
-rotation&cropping/hard/WhatsApp Image 2026-09-16 at 1.18.03 PM (1)_diag.jpeg | medication #4 | gemma.form: None -> 'شراب'
-shadow/easy/267_diag.jpeg | medication #0 | gemini.dose: '2.5 mg / day' -> '2 5 mg day'
-shadow/easy/267_diag.jpeg | medication #0 | gemini.frequency: 'شهرياً' -> 'شهريا'
-shadow/easy/267_diag.jpeg | medication #0 | gemini.instructions: '١ amp ( ٨ قلم شهرياً )' -> '1 amp 8 قلم شهريا'
-shadow/easy/267_diag.jpeg | medication #0 | gemma.dose: '2.5 mg' -> '2 5 mg'
-shadow/easy/267_diag.jpeg | medication #0 | gemma.frequency: '/ day' -> 'day'
-shadow/easy/267_diag.jpeg | medication #1 | gemini.frequency: 'يومياً' -> 'يوميا'
-shadow/easy/267_diag.jpeg | medication #2 | gemini.name: 'calmag' -> 'cal mag'
-shadow/easy/267_diag.jpeg | medication #2 | gemini.frequency: 'يومياً' -> 'يوميا'
-shadow/easy/267_diag.jpeg | medication #2 | gemma.name: 'calmag' -> 'cal mag'
-shadow/easy/267_diag.jpeg | medication #3 | gemini.frequency: 'يومياً' -> 'يوميا'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #0 | gemini.name: 'Anticox' -> 'anti cox'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #0 | gemini.frequency: 'حقن يوميا لمدة 3 أيام' -> 'حقن يوميا لمدة 3 ايام'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #0 | gemini.duration: '3 أيام' -> '3 ايام'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #1 | gemini.name: 'Eticoxica' -> 'eticoxia'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #1 | gemini.frequency: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #1 | gemini.instructions: 'بعد الإفطار' -> 'بعد الافطار'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #2 | gemini.frequency: 'قرص بعد الإفطار' -> 'قرص بعد الافطار'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #2 | gemini.instructions: 'بعد الإفطار' -> 'بعد الافطار'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #4 | gemini.strength: '1.0 mcg' -> '1 0 mcg'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #4 | gemma.strength: '1.0 mg' -> '1 0 mg'
-shadow/hard/PHOTO-2022-11-07-21-03-25.jpg | medication #5 | gemini.name: 'Duledeprine' -> 'duleprin'
+Fields matching between Gemini and Gemma before cleanup: 2752
+Matching fields that became different after cleanup: 68
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #0
+Field that became different: dose
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='1' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Gastrobiotic'
+    strength: '550'
+    dose: None
+    frequency: '1 x 2 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص كل ١٢ ساعة'
+  GEMMA:
+    name: 'Gastrobolc'
+    strength: '550'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'gastrobiotic'
+    strength: '550'
+    dose: '1'
+    frequency: '2'
+    form: ''
+    duration: '30'
+    instructions: 'قرص كل 12 ساعة'
+  GEMMA:
+    name: 'gastrobolc'
+    strength: '550'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #0
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Gastrobiotic'
+    strength: '550'
+    dose: None
+    frequency: '1 x 2 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص كل ١٢ ساعة'
+  GEMMA:
+    name: 'Gastrobolc'
+    strength: '550'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'gastrobiotic'
+    strength: '550'
+    dose: '1'
+    frequency: '2'
+    form: ''
+    duration: '30'
+    instructions: 'قرص كل 12 ساعة'
+  GEMMA:
+    name: 'gastrobolc'
+    strength: '550'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #1
+Field that became different: dose
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='1' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Coloverin A'
+    strength: None
+    dose: None
+    frequency: '1 x 3 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص ٣ مرات قبل الأكل'
+  GEMMA:
+    name: 'Coloverin A'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'coloverin a'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '30'
+    instructions: 'قرص 3 مرات قبل الاكل'
+  GEMMA:
+    name: 'coloverin a'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #1
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Coloverin A'
+    strength: None
+    dose: None
+    frequency: '1 x 3 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص ٣ مرات قبل الأكل'
+  GEMMA:
+    name: 'Coloverin A'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'coloverin a'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '30'
+    instructions: 'قرص 3 مرات قبل الاكل'
+  GEMMA:
+    name: 'coloverin a'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #2
+Field that became different: dose
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='1' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Pentasa'
+    strength: '500'
+    dose: None
+    frequency: '1 x 3 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص ٣ مرات'
+  GEMMA:
+    name: 'Pentasa'
+    strength: '500'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'pentasa'
+    strength: '500'
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '30'
+    instructions: 'قرص 3 مرات'
+  GEMMA:
+    name: 'pentasa'
+    strength: '500'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/IMG-20190508-WA0066_diag.jpeg | Medication pair #2
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Pentasa'
+    strength: '500'
+    dose: None
+    frequency: '1 x 3 x 30'
+    form: None
+    duration: None
+    instructions: 'قرص ٣ مرات'
+  GEMMA:
+    name: 'Pentasa'
+    strength: '500'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'pentasa'
+    strength: '500'
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '30'
+    instructions: 'قرص 3 مرات'
+  GEMMA:
+    name: 'pentasa'
+    strength: '500'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Neurovit'
+    strength: None
+    dose: 'Tabs'
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Neursint Tabs'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'neurovit'
+    strength: ''
+    dose: 'tabs'
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'neursint'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'tabs'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/PHOTO-2026-09-01-14-49-04_diag.jpg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='gel'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Biofreeze'
+    strength: None
+    dose: 'gel'
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Biofreeze gel'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'biofreeze'
+    strength: ''
+    dose: 'gel'
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'biofreeze'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'gel'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-08-31 at 11.03.13 AM.jpeg | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='drop'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Otrivin ped dps'
+    strength: None
+    dose: 'نقطتين'
+    frequency: 'كل 8 ساعات'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'chlorpheniramine nasal drop'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'otrivin ped dps'
+    strength: ''
+    dose: 'نقطتين'
+    frequency: 'كل 8 ساعات'
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'chlorpheniramine nasal'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'drop'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Dolipran tab.'
+    strength: '1000'
+    dose: None
+    frequency: '١×١'
+    form: None
+    duration: None
+    instructions: 'بعد الأكل'
+  GEMMA:
+    name: 'Dolipran'
+    strength: '1000 mg'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'tb,'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'doliprane'
+    strength: '1000'
+    dose: ''
+    frequency: '1 1'
+    form: 'tab'
+    duration: ''
+    instructions: 'بعد الاكل'
+  GEMMA:
+    name: 'doliprane'
+    strength: '1000 mg'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'tb'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='cream' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Rx cream'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Rx cra'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'rx'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'cream'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'rx cream'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-08-31 at 9.54.28 AM (1)_diag.jpeg | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='cream' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Myocool cream'
+    strength: None
+    dose: None
+    frequency: '١×٢'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Myocool cra'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'myocool'
+    strength: ''
+    dose: ''
+    frequency: '1 2'
+    form: 'cream'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'myocool cra'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | Medication pair #4
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Via-Cal tab'
+    strength: None
+    dose: 'قرص'
+    frequency: 'بعد الغداء يوميا مع شرب مياه بكثره'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Via-Cal tabs'
+    strength: None
+    dose: None
+    frequency: 'في سرير قبل النوم بكره'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'via cal'
+    strength: ''
+    dose: 'قرص'
+    frequency: 'بعد الغداء يوميا مع شرب مياه بكثره'
+    form: 'tab'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'via cal'
+    strength: ''
+    dose: ''
+    frequency: 'في سرير قبل النوم بكره'
+    form: 'tabs'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/easy/WhatsApp Image 2026-09-16 at 1.12.38 PM (7).jpeg | Medication pair #5
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='oint' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Srilane Oint'
+    strength: None
+    dose: 'دهان'
+    frequency: 'حوالين الركبه في اتجاه واحد والمياه ساخنة للركبتين'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'SR lone or'
+    strength: None
+    dose: None
+    frequency: 'صباح و مساء'
+    form: None
+    duration: None
+    instructions: 'قبل الاكل بـ ٣٠ دقيقة'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'srilane'
+    strength: ''
+    dose: 'دهان'
+    frequency: 'حوالين الركبه في اتجاه واحد والمياه ساخنة للركبتين'
+    form: 'oint'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'sr lone or'
+    strength: ''
+    dose: ''
+    frequency: 'صباح و مساء'
+    form: ''
+    duration: ''
+    instructions: 'قبل الاكل بـ 30 دقيقة'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/IMG-20190509-WA0008.jpeg | Medication pair #7
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='amp' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Betolvex amp'
+    strength: None
+    dose: 'حقنة'
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'عضل / ٣ ايام'
+  GEMMA:
+    name: 'Betolrea'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'المسكن عند اللام'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'betolvex'
+    strength: ''
+    dose: 'حقنة'
+    frequency: ''
+    form: 'amp'
+    duration: ''
+    instructions: 'عضل 3 ايام'
+  GEMMA:
+    name: 'betolrea'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'المسكن عند اللام'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'peptic caret tab'
+    strength: None
+    dose: 'قرص'
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: 'لمدة ١٤ يوم'
+    instructions: 'قبل الأكل'
+  GEMMA:
+    name: 'Mu Costa'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'مرة بعد الاكل ومرة قبل النوم'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'peptic care'
+    strength: ''
+    dose: 'قرص'
+    frequency: 'مرتين يوميا'
+    form: 'tab'
+    duration: 'لمدة 14 يوم'
+    instructions: 'قبل الاكل'
+  GEMMA:
+    name: 'mucosta'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'مرة بعد الاكل ومرة قبل النوم'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Mucosta tab'
+    strength: None
+    dose: 'قرص'
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: None
+    instructions: 'وسط الأكل'
+  GEMMA:
+    name: 'Mosaprid'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'قبل الاكل ومرة قبل النوم'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'mucosta'
+    strength: ''
+    dose: 'قرص'
+    frequency: 'مرتين يوميا'
+    form: 'tab'
+    duration: ''
+    instructions: 'وسط الاكل'
+  GEMMA:
+    name: 'mosapride'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'قبل الاكل ومرة قبل النوم'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/PHOTO-2022-11-20-17-09-33_diag.jpg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Mosaprid tab'
+    strength: None
+    dose: None
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: None
+    instructions: 'قبل الأكل'
+  GEMMA:
+    name: 'Cortilon'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'مرة قبل الفطار يومية'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'mosapride'
+    strength: ''
+    dose: ''
+    frequency: 'مرتين يوميا'
+    form: 'tab'
+    duration: ''
+    instructions: 'قبل الاكل'
+  GEMMA:
+    name: 'cortilon'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'مرة قبل الفطار يومية'
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Eucarbon'
+    strength: None
+    dose: '1'
+    frequency: '2'
+    form: None
+    duration: '5'
+    instructions: None
+  GEMMA:
+    name: 'Eu carbon tabs'
+    strength: None
+    dose: '1'
+    frequency: '3'
+    form: None
+    duration: '7'
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'eucarbon'
+    strength: ''
+    dose: '1'
+    frequency: '2'
+    form: ''
+    duration: '5'
+    instructions: ''
+  GEMMA:
+    name: 'eucarbon'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: 'tabs'
+    duration: '7'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Dolibrane'
+    strength: None
+    dose: '1'
+    frequency: '3'
+    form: None
+    duration: '7'
+    instructions: None
+  GEMMA:
+    name: 'Dolibrane tabs'
+    strength: None
+    dose: '1'
+    frequency: '3'
+    form: None
+    duration: '7'
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'doliprane'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '7'
+    instructions: ''
+  GEMMA:
+    name: 'doliprane'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: 'tabs'
+    duration: '7'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Visceralgin'
+    strength: None
+    dose: '1'
+    frequency: '3'
+    form: None
+    duration: '7'
+    instructions: None
+  GEMMA:
+    name: 'Viscralgin tabs'
+    strength: None
+    dose: '1'
+    frequency: '3'
+    form: None
+    duration: '7'
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'visceralgine'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: ''
+    duration: '7'
+    instructions: ''
+  GEMMA:
+    name: 'visceralgine'
+    strength: ''
+    dose: '1'
+    frequency: '3'
+    form: 'tabs'
+    duration: '7'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/WhatsApp Image 2026-08-31 at 9.54.29 AM.jpeg | Medication pair #4
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Cipro diazole'
+    strength: None
+    dose: '1'
+    frequency: '2'
+    form: None
+    duration: '5'
+    instructions: None
+  GEMMA:
+    name: 'Ciprodiatcole tabs'
+    strength: None
+    dose: '1'
+    frequency: '2'
+    form: None
+    duration: '5'
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'ciprodiazole'
+    strength: ''
+    dose: '1'
+    frequency: '2'
+    form: ''
+    duration: '5'
+    instructions: ''
+  GEMMA:
+    name: 'ciprodiatcole'
+    strength: ''
+    dose: '1'
+    frequency: '2'
+    form: 'tabs'
+    duration: '5'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping&tilting/hard/WhatsApp Image 2026-09-16 at 1.09.33 PM_diag.jpeg | Medication pair #6
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'PANADOL TAB ازرق'
+    strength: None
+    dose: 'حبتين'
+    frequency: 'عند اللزوم'
+    form: None
+    duration: None
+    instructions: 'عند اللزوم'
+  GEMMA:
+    name: 'PANADOL'
+    strength: None
+    dose: None
+    frequency: 'عند اللزوم'
+    form: None
+    duration: None
+    instructions: 'ازرق'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'panadol ازرق'
+    strength: ''
+    dose: 'حبتين'
+    frequency: 'عند اللزوم'
+    form: 'tab'
+    duration: ''
+    instructions: 'عند اللزوم'
+  GEMMA:
+    name: 'panadol'
+    strength: ''
+    dose: ''
+    frequency: 'عند اللزوم'
+    form: ''
+    duration: ''
+    instructions: 'ازرق'
+------------------------------------------------------------------------
+
+Location: cropping/easy/120.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='syr'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Zithromax'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'كبسولة يومياً لمدة ٥ أيام'
+  GEMMA:
+    name: 'Zillrowa syr'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'zithromax'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'كبسولة يوميا لمدة 5 ايام'
+  GEMMA:
+    name: 'zillrowa'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'syr'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping/easy/296.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='drop' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'v-drop'
+    strength: None
+    dose: 'قطاره'
+    frequency: 'يوميا'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'v_drop'
+    strength: None
+    dose: None
+    frequency: 'قطرة يوميا'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'v'
+    strength: ''
+    dose: 'قطاره'
+    frequency: 'يوميا'
+    form: 'drop'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'v_drop'
+    strength: ''
+    dose: ''
+    frequency: 'قطرة يوميا'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping/easy/PHOTO-2020-11-12-14-12-06_diag.jpg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='soln' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'L.carnitin Soln'
+    strength: None
+    dose: '½ قطارة'
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'L. carnitin solun'
+    strength: None
+    dose: '١/٢ قطارة'
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'l carnitine'
+    strength: ''
+    dose: '1 2 قطارة'
+    frequency: 'مرتين يوميا'
+    form: 'soln'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'l carnitin solun'
+    strength: ''
+    dose: '1 2 قطارة'
+    frequency: 'مرتين يوميا'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='gel' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Xamiol scalp gel'
+    strength: None
+    dose: None
+    frequency: 'مساءً'
+    form: None
+    duration: None
+    instructions: 'أعلاه شهرين'
+  GEMMA:
+    name: 'Xamiol'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'scalp gel'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'xamiol scalp'
+    strength: ''
+    dose: ''
+    frequency: 'مساء'
+    form: 'gel'
+    duration: ''
+    instructions: 'اعلاه شهرين'
+  GEMMA:
+    name: 'xamiol'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'scalp gel'
+------------------------------------------------------------------------
+
+Location: cropping/easy/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='oint' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Daivobet Oint'
+    strength: '30gm'
+    dose: None
+    frequency: 'دهان مرة واحدة يومياً'
+    form: None
+    duration: None
+    instructions: 'أعلاه شهرين'
+  GEMMA:
+    name: 'Dairrobet'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '3agn'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'daivobet'
+    strength: '30gm'
+    dose: ''
+    frequency: 'دهان مرة واحدة يوميا'
+    form: 'oint'
+    duration: ''
+    instructions: 'اعلاه شهرين'
+  GEMMA:
+    name: 'dairrobet'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: '3agn'
+------------------------------------------------------------------------
+
+Location: cropping/hard/296.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='drop' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'v-drop'
+    strength: None
+    dose: 'قطاره'
+    frequency: 'يوميا'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'v_drop'
+    strength: None
+    dose: None
+    frequency: 'قطرة يوميا'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'v'
+    strength: ''
+    dose: 'قطاره'
+    frequency: 'يوميا'
+    form: 'drop'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'v_drop'
+    strength: ''
+    dose: ''
+    frequency: 'قطرة يوميا'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cap'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Pepon plus'
+    strength: None
+    dose: None
+    frequency: 'بعد الغداء'
+    form: None
+    duration: 'علاج شهر'
+    instructions: 'cap / قرص'
+  GEMMA:
+    name: 'Pepon plus cap'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'د يوم العشاء مرة واحدة'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'pepon plus'
+    strength: ''
+    dose: ''
+    frequency: 'بعد الغداء'
+    form: ''
+    duration: 'علاج شهر'
+    instructions: 'cap قرص'
+  GEMMA:
+    name: 'pepon plus'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'cap'
+    duration: ''
+    instructions: 'د يوم العشاء مرة واحدة'
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-08-31 at 9.53.14 AM.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='tab'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Starkoprex'
+    strength: '5mg'
+    dose: None
+    frequency: 'يومياً'
+    form: None
+    duration: 'لمدة شهر'
+    instructions: 'tab / قرص'
+  GEMMA:
+    name: 'Stankoprex Sny tab'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'واحد يوميا لمدة 7'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'starkoprex'
+    strength: '5mg'
+    dose: ''
+    frequency: 'يوميا'
+    form: ''
+    duration: 'لمدة شهر'
+    instructions: 'tab قرص'
+  GEMMA:
+    name: 'stankoprex sny'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'tab'
+    duration: ''
+    instructions: 'واحد يوميا لمدة 7'
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='gel' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Xamiol scalp gel'
+    strength: None
+    dose: None
+    frequency: 'مساءً'
+    form: None
+    duration: None
+    instructions: 'أعلاه شهرين'
+  GEMMA:
+    name: 'Xamiol'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'scalp gel'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'xamiol scalp'
+    strength: ''
+    dose: ''
+    frequency: 'مساء'
+    form: 'gel'
+    duration: ''
+    instructions: 'اعلاه شهرين'
+  GEMMA:
+    name: 'xamiol'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'scalp gel'
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-09-16 at 1.12.36 PM (5)_diag.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='oint' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Daivobet Oint'
+    strength: '30gm'
+    dose: None
+    frequency: 'دهان مرة واحدة يومياً'
+    form: None
+    duration: None
+    instructions: 'أعلاه شهرين'
+  GEMMA:
+    name: 'Dairrobet'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '3agn'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'daivobet'
+    strength: '30gm'
+    dose: ''
+    frequency: 'دهان مرة واحدة يوميا'
+    form: 'oint'
+    duration: ''
+    instructions: 'اعلاه شهرين'
+  GEMMA:
+    name: 'dairrobet'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: '3agn'
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | Medication pair #0
+Field that became different: dose
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'crest'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Allhesys 7mg'
+    strength: '7mg'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'crest'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'allhesys'
+    strength: '7mg'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: cropping/hard/WhatsApp Image 2026-09-16 at 1.19.28 PM (3)_diag_proc.jpeg | Medication pair #0
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='30'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'crest'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Allhesys 7mg'
+    strength: '7mg'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'crest'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'allhesys'
+    strength: '7mg'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: heavy_pre/easy/WhatsApp Image 2026-08-31 at 9.54.22 AM_diag.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='caps'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'futacort'
+    strength: None
+    dose: None
+    frequency: '2'
+    form: None
+    duration: None
+    instructions: 'دهان'
+  GEMMA:
+    name: 'futac caps'
+    strength: None
+    dose: None
+    frequency: 'qd'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'futacort'
+    strength: ''
+    dose: ''
+    frequency: '2'
+    form: ''
+    duration: ''
+    instructions: 'دهان'
+  GEMMA:
+    name: 'futac'
+    strength: ''
+    dose: ''
+    frequency: 'qd'
+    form: 'caps'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: heavy_pre/hard/Screenshot.png | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='syp'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'E Thoxo'
+    strength: None
+    dose: '٢.٥ سم'
+    frequency: 'كل ١٢ ساعة'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'E Throxin syp'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '1.5 مل'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'e thoxo'
+    strength: ''
+    dose: '2 5 سم'
+    frequency: 'كل 12 ساعة'
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'e throxin'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'syp'
+    duration: ''
+    instructions: '1 5 مل'
+------------------------------------------------------------------------
+
+Location: heavy_pre/hard/Screenshot.png | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='syp'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'sodium benzoate'
+    strength: None
+    dose: '٢.٥ سم'
+    frequency: 'كل ١٢ ساعة'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'sodium benzoate syp'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '5 مل'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'sodium benzoate'
+    strength: ''
+    dose: '2 5 سم'
+    frequency: 'كل 12 ساعة'
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'sodium benzoate'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'syp'
+    duration: ''
+    instructions: '5 مل'
+------------------------------------------------------------------------
+
+Location: heavy_pre/hard/Screenshot.png | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cap'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Nexium'
+    strength: '20'
+    dose: 'كبسولة'
+    frequency: 'كل ٢٤ ساعة'
+    form: None
+    duration: None
+    instructions: 'قبل النوم بساعة'
+  GEMMA:
+    name: 'Nexium 20 cap'
+    strength: '20'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'كپسولة واحدة يوميا'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'nexium'
+    strength: '20'
+    dose: 'كبسولة'
+    frequency: 'كل 24 ساعة'
+    form: ''
+    duration: ''
+    instructions: 'قبل النوم بساعة'
+  GEMMA:
+    name: 'nexium 20'
+    strength: '20'
+    dose: ''
+    frequency: ''
+    form: 'cap'
+    duration: ''
+    instructions: 'كپسولة واحدة يوميا'
+------------------------------------------------------------------------
+
+Location: heavy_pre/hard/Screenshot.png | Medication pair #4
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cap'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Convagran'
+    strength: '50'
+    dose: 'كبسولة'
+    frequency: 'كل ١٢ ساعة'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Convulgon 50 cap'
+    strength: '50'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'convagran'
+    strength: '50'
+    dose: 'كبسولة'
+    frequency: 'كل 12 ساعة'
+    form: ''
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'convulgon 50'
+    strength: '50'
+    dose: ''
+    frequency: ''
+    form: 'cap'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: heavy_pre/hard/WhatsApp Image 2026-09-16 at 1.09.34 PM (4)_diag_proc.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='vial' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Xolair 150 vial'
+    strength: '150'
+    dose: '2 حقنة جرعة شهريا'
+    frequency: 'شهريا'
+    form: None
+    duration: 'لمدة 4 شهور أخرى'
+    instructions: 'عدد 2 حقنة جرعة شهريا لمدة الاربع شهور التاليه ( 4 حقنة كل شهر )'
+  GEMMA:
+    name: 'Xolair 150vial'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: 'لمدة ٤ شهور'
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'xolair 150'
+    strength: '150'
+    dose: '2 حقنة جرعة شهريا'
+    frequency: 'شهريا'
+    form: 'vial'
+    duration: 'لمدة 4 شهور اخري'
+    instructions: 'عدد 2 حقنة جرعة شهريا لمدة الاربع شهور التاليه 4 حقنة كل شهر'
+  GEMMA:
+    name: 'xolair 150vial'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: 'لمدة 4 شهور'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag.jpeg | Medication pair #0
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Zorvazet'
+    strength: '20/10'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Zonret'
+    strength: None
+    dose: None
+    frequency: '1x1x1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'zorvazet'
+    strength: '20 10'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+  GEMMA:
+    name: 'zonret'
+    strength: ''
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '1'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag.jpeg | Medication pair #1
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Lipanthyl supra'
+    strength: '160'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Lipityl 80'
+    strength: '80'
+    dose: None
+    frequency: '1x1x1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'lipanthyl supra'
+    strength: '160'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+  GEMMA:
+    name: 'lipityl 80'
+    strength: '80'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '1'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag.jpeg | Medication pair #2
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Asprotect'
+    strength: '100'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Asquastat'
+    strength: None
+    dose: None
+    frequency: '1x1x1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'asp protect'
+    strength: '100'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+  GEMMA:
+    name: 'asquastat'
+    strength: ''
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '1'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag.jpeg | Medication pair #3
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Methytechno patches'
+    strength: None
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Methyltechus patches'
+    strength: None
+    dose: None
+    frequency: '1x1x1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'methytechno'
+    strength: ''
+    dose: '1'
+    frequency: '1'
+    form: 'patches'
+    duration: '30'
+    instructions: ''
+  GEMMA:
+    name: 'methyl technu'
+    strength: ''
+    dose: '1'
+    frequency: '1'
+    form: 'patches'
+    duration: '1'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag.jpeg | Medication pair #4
+Field that became different: duration
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='30' | Gemma='1'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Controloc'
+    strength: '40'
+    dose: None
+    frequency: '1x1x30'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Controlock'
+    strength: None
+    dose: None
+    frequency: '1x1x1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'controloc'
+    strength: '40'
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '30'
+    instructions: ''
+  GEMMA:
+    name: 'controloc'
+    strength: ''
+    dose: '1'
+    frequency: '1'
+    form: ''
+    duration: '1'
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag_proc.pdf | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Recoxibright tab'
+    strength: '120mg'
+    dose: 'قرص'
+    frequency: 'صباحا'
+    form: None
+    duration: 'شهر'
+    instructions: 'قرص صباحا قبل الاكل شهر'
+  GEMMA:
+    name: 'Recobright'
+    strength: '120mg'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'recoxibright'
+    strength: '120mg'
+    dose: 'قرص'
+    frequency: 'صباحا'
+    form: 'tab'
+    duration: 'شهر'
+    instructions: 'قرص صباحا قبل الاكل شهر'
+  GEMMA:
+    name: 'recoxibright'
+    strength: '120mg'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag_proc.pdf | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Conventin tab'
+    strength: '300mg'
+    dose: 'قرص'
+    frequency: 'يوميا'
+    form: None
+    duration: 'لمدة شهر'
+    instructions: 'قرص يوميا لمدة شهر'
+  GEMMA:
+    name: 'Comventin'
+    strength: '300mg'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'conventin'
+    strength: '300mg'
+    dose: 'قرص'
+    frequency: 'يوميا'
+    form: 'tab'
+    duration: 'لمدة شهر'
+    instructions: 'قرص يوميا لمدة شهر'
+  GEMMA:
+    name: 'conventin'
+    strength: '300mg'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/001_diag_proc.pdf | Medication pair #5
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Alphention tab'
+    strength: '600mg'
+    dose: 'قرص'
+    frequency: 'يوميا'
+    form: None
+    duration: None
+    instructions: 'قرص يوميا'
+  GEMMA:
+    name: 'Alphentira'
+    strength: '600mg'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'alphention'
+    strength: '600mg'
+    dose: 'قرص'
+    frequency: 'يوميا'
+    form: 'tab'
+    duration: ''
+    instructions: 'قرص يوميا'
+  GEMMA:
+    name: 'alphentira'
+    strength: '600mg'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/002.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Dimra tab'
+    strength: None
+    dose: None
+    frequency: 'قرص بعد العشاء'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Dimmatas'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'dimra'
+    strength: ''
+    dose: ''
+    frequency: 'قرص بعد العشاء'
+    form: 'tab'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'dimmatas'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/002.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Anrecox 90 tab'
+    strength: '90'
+    dose: None
+    frequency: 'قرص بعد الغداء'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Anvelacoxgotol'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'anrecox 90'
+    strength: '90'
+    dose: ''
+    frequency: 'قرص بعد الغداء'
+    form: 'tab'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'anvelacoxgotol'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/002.jpeg | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='gel' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Coolment gel'
+    strength: None
+    dose: None
+    frequency: 'دهان مرتين'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Koolmiter'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'coolment'
+    strength: ''
+    dose: ''
+    frequency: 'دهان مرتين'
+    form: 'gel'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'koolmiter'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/034.pdf | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='syr' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Phenedone syr'
+    strength: None
+    dose: None
+    frequency: 'معلقة ٣ مرات يوميا'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Phenedone sy'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '٢ مرات يوميا'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'phenadone'
+    strength: ''
+    dose: ''
+    frequency: 'معلقة 3 مرات يوميا'
+    form: 'syr'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'phenedone sy'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: '2 مرات يوميا'
+------------------------------------------------------------------------
+
+Location: no_pre/easy/199.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='syr'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'pulmicort'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'جلسة'
+  GEMMA:
+    name: 'phudue syr'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'pulmicort'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'جلسة'
+  GEMMA:
+    name: 'phudue'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'syr'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/199.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='syr'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Mucophylline'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'جلسة'
+  GEMMA:
+    name: 'Mucopell syr'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'mucophylline'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: 'جلسة'
+  GEMMA:
+    name: 'mucopell'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'syr'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/207_diag.jpeg | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Acti col c tab'
+    strength: None
+    dose: None
+    frequency: '1x2'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'Condeter'
+    strength: '300'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'acti colla c'
+    strength: ''
+    dose: ''
+    frequency: '1x2'
+    form: 'tab'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'condeter'
+    strength: '300'
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/207_diag.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='amp' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Dextaglobe Amp'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'ع / الأسبوع'
+  GEMMA:
+    name: 'Dexaglobe'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'dexaglobe'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'amp'
+    duration: ''
+    instructions: 'ع الاسبوع'
+  GEMMA:
+    name: 'dexaglobe'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/254_diag_proc.pdf | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cap'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Joint guard ultra'
+    strength: None
+    dose: 'Cap'
+    frequency: '١ × ٢'
+    form: None
+    duration: None
+    instructions: 'قرص بعد الغداء'
+  GEMMA:
+    name: 'Joint guard ultra Cap'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'jointguard ultra'
+    strength: ''
+    dose: 'cap'
+    frequency: '1 2'
+    form: ''
+    duration: ''
+    instructions: 'قرص بعد الغداء'
+  GEMMA:
+    name: 'jointguard ultra'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'cap'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/255_diag.jpeg | Medication pair #0
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cap'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Flopadex'
+    strength: '8 mg'
+    dose: None
+    frequency: 'يومياً'
+    form: None
+    duration: None
+    instructions: 'كبسولة يومياً علاج مستمر'
+  GEMMA:
+    name: 'Flopadex Cap.'
+    strength: '8mg'
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'كبسولة يوميا مساء ٢ مرة'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'flopadex'
+    strength: '8 mg'
+    dose: ''
+    frequency: 'يوميا'
+    form: ''
+    duration: ''
+    instructions: 'كبسولة يوميا علاج مستمر'
+  GEMMA:
+    name: 'flopadex'
+    strength: '8mg'
+    dose: ''
+    frequency: ''
+    form: 'cap'
+    duration: ''
+    instructions: 'كبسولة يوميا مساء 2 مرة'
+------------------------------------------------------------------------
+
+Location: no_pre/easy/260_proc.pdf | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Dolipran tab'
+    strength: None
+    dose: None
+    frequency: '1 x 3'
+    form: None
+    duration: '5'
+    instructions: None
+  GEMMA:
+    name: 'Polysporin'
+    strength: None
+    dose: None
+    frequency: 'o x I x I'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'doliprane'
+    strength: ''
+    dose: ''
+    frequency: '1 x 3'
+    form: 'tab'
+    duration: '5'
+    instructions: ''
+  GEMMA:
+    name: 'polysporin'
+    strength: ''
+    dose: ''
+    frequency: 'o x i x i'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/260_proc.pdf | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Mebeverin tab'
+    strength: None
+    dose: None
+    frequency: '1 x 2'
+    form: None
+    duration: '5'
+    instructions: None
+  GEMMA:
+    name: 'Metaglin'
+    strength: None
+    dose: None
+    frequency: 'o x I x I'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'mebeverin'
+    strength: ''
+    dose: ''
+    frequency: '1 x 2'
+    form: 'tab'
+    duration: '5'
+    instructions: ''
+  GEMMA:
+    name: 'metaglin'
+    strength: ''
+    dose: ''
+    frequency: 'o x i x i'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/easy/PHOTO-2021-06-12-19-08-11_diag.jpg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='cr'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Cosamine Cre'
+    strength: None
+    dose: 'دهان'
+    frequency: 'مرتين يومياً'
+    form: None
+    duration: None
+    instructions: 'دهان مرتين يومياً مساج'
+  GEMMA:
+    name: 'Cosmoline Cr'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'دهان مرتين يوميا'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'cosamine cre'
+    strength: ''
+    dose: 'دهان'
+    frequency: 'مرتين يوميا'
+    form: ''
+    duration: ''
+    instructions: 'دهان مرتين يوميا مساج'
+  GEMMA:
+    name: 'cosmoline'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'cr'
+    duration: ''
+    instructions: 'دهان مرتين يوميا'
+------------------------------------------------------------------------
+
+Location: no_pre/easy/Screenshot4_diag.png | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='' | Gemma='susp'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Epicopred'
+    strength: '5mg'
+    dose: '٢ قرص'
+    frequency: 'بعد الإفطار'
+    form: None
+    duration: 'اسبوع'
+    instructions: 'ثم قرص بعد الإفطار اسبوعين'
+  GEMMA:
+    name: 'Epicopred susp.'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: '٢ مرة يوم لمدة اسبوع ثم مرة يوم لمدة اسبوعين'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'epicopred'
+    strength: '5mg'
+    dose: '2 قرص'
+    frequency: 'بعد الافطار'
+    form: ''
+    duration: 'اسبوع'
+    instructions: 'ثم قرص بعد الافطار اسبوعين'
+  GEMMA:
+    name: 'epicopred'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'susp'
+    duration: ''
+    instructions: '2 مرة يوم لمدة اسبوع ثم مرة يوم لمدة اسبوعين'
+------------------------------------------------------------------------
+
+Location: no_pre/easy/WhatsApp Image 2026-08-31 at 9.53.13 AM_diag.jpeg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='tab' | Gemma='tabs'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Alphintern tab'
+    strength: None
+    dose: 'قرص'
+    frequency: '١ * ٣'
+    form: None
+    duration: 'اسبوع'
+    instructions: None
+  GEMMA:
+    name: 'Alphintern tabs'
+    strength: None
+    dose: None
+    frequency: None
+    form: None
+    duration: None
+    instructions: 'قرص كل ٨ ساعات'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'alphintern'
+    strength: ''
+    dose: 'قرص'
+    frequency: '1 3'
+    form: 'tab'
+    duration: 'اسبوع'
+    instructions: ''
+  GEMMA:
+    name: 'alphintern'
+    strength: ''
+    dose: ''
+    frequency: ''
+    form: 'tabs'
+    duration: ''
+    instructions: 'قرص كل 8 ساعات'
+------------------------------------------------------------------------
+
+Location: no_pre/hard/IMG-20190422-WA0080.jpg | Medication pair #3
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='ampoule' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'ferrosac ampoule'
+    strength: None
+    dose: 'امبول'
+    frequency: 'مره إسبوعياً'
+    form: None
+    duration: 'لمده ١٠ أسابيع'
+    instructions: 'بعد الغسيل'
+  GEMMA:
+    name: 'ferrosac ampaule'
+    strength: None
+    dose: None
+    frequency: 'مرة أسبوعيا'
+    form: None
+    duration: '١٠ أسابيع'
+    instructions: 'الحقن بعد الغسيل'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'ferosac'
+    strength: ''
+    dose: 'امبول'
+    frequency: 'مره اسبوعيا'
+    form: 'ampoule'
+    duration: 'لمده 10 اسابيع'
+    instructions: 'بعد الغسيل'
+  GEMMA:
+    name: 'ferrosac ampaule'
+    strength: ''
+    dose: ''
+    frequency: 'مرة اسبوعيا'
+    form: ''
+    duration: '10 اسابيع'
+    instructions: 'الحقن بعد الغسيل'
+------------------------------------------------------------------------
+
+Location: no_pre/hard/IMG-20190520-WA0001.jpg | Medication pair #2
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='drops' | Gemma='drop'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'urico drops'
+    strength: None
+    dose: '8 d'
+    frequency: '١'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'urico drop'
+    strength: None
+    dose: '8 dt'
+    frequency: '1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'urico'
+    strength: ''
+    dose: '8 d'
+    frequency: '1'
+    form: 'drops'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'urico'
+    strength: ''
+    dose: '8 dt'
+    frequency: '1'
+    form: 'drop'
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: no_pre/hard/IMG-20190520-WA0001.jpg | Medication pair #4
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='cap' | Gemma=''
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'thio tacid cap'
+    strength: '600'
+    dose: None
+    frequency: '١'
+    form: None
+    duration: None
+    instructions: None
+  GEMMA:
+    name: 'this taced'
+    strength: None
+    dose: None
+    frequency: '1'
+    form: None
+    duration: None
+    instructions: None
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'thiotacid'
+    strength: '600'
+    dose: ''
+    frequency: '1'
+    form: 'cap'
+    duration: ''
+    instructions: ''
+  GEMMA:
+    name: 'this taced'
+    strength: ''
+    dose: ''
+    frequency: '1'
+    form: ''
+    duration: ''
+    instructions: ''
+------------------------------------------------------------------------
+
+Location: rotation&cropping/easy/scan0007_diag.JPG | Medication pair #1
+Field that became different: form
+Before cleanup (matched): Gemini=None | Gemma=None
+After cleanup (different): Gemini='amp' | Gemma='syr'
+
+FULL MEDICATION METADATA BEFORE CLEANUP:
+  GEMINI:
+    name: 'Livabion Amp'
+    strength: None
+    dose: None
+    frequency: 'كل شهر'
+    form: None
+    duration: None
+    instructions: 'حقنة عضل'
+  GEMMA:
+    name: 'Livabron Syr'
+    strength: None
+    dose: '١ مل'
+    frequency: None
+    form: None
+    duration: None
+    instructions: '٣ مرات يوميا'
+
+FULL MEDICATION METADATA AFTER CLEANUP:
+  GEMINI:
+    name: 'livabion'
+    strength: ''
+    dose: ''
+    frequency: 'كل شهر'
+    form: 'amp'
+    duration: ''
+    instructions: 'حقنة عضل'
+  GEMMA:
+    name: 'livabion'
+    strength: ''
+    dose: '1 مل'
+    frequency: ''
+    form: 'syr'
+    duration: ''
+    instructions: '3 مرات يوميا'
+------------------------------------------------------------------------
 
 INTERPRETATION NOTES
 ------------------------------------------------------------------------
 CER is agreement CER: Gemini medication names are treated as references and Gemma names as predictions; it is not ground-truth OCR CER.
-The input file is already filtered to pairs whose medication names were close, so the results apply only to this subset.
+The regression section includes only fields where Gemini and Gemma matched before cleanup but differ after cleanup.
 Equality uses Unicode NFKC, case-folding, Arabic-Indic digit conversion, and whitespace normalization.
